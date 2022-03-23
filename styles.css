@@ -48,3 +48,45 @@ nav li {
     border: solid 2px white;
 }
 
+/* Sur tous types d'écran, quand la largeur de la fenêtre est comprise entre 768px et 992px (tablette) */
+/*  @media all and (min-width: 768px) and (max-width: 992px) */
+
+
+/* Sur les écrans, quand la largeur de la fenêtre fait au maximum 767px (telephone portable)*/
+@media screen and (max-width: 767px){
+    nav {
+    display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        min-width: 300px;
+        margin: 0;
+    }    
+
+    nav ul {
+        Padding : 0;
+        width: 100%;
+    }
+
+    nav li {
+        text-align: center;
+        width: 50%;
+        min-width: 150px;
+        font-size: 15px;
+    }
+    nav img{
+       border-color: solid black 2px;
+      
+    }
+    .hebergement{
+        color: #0065FC;
+        border-top: solid 2px white;
+        border-bottom: solid 3px #0065FC;
+    }
+    
+    .activites{
+        border-bottom: solid 3px #F2F2F2;
+        ;
+    }
+}
