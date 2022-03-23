@@ -180,3 +180,33 @@ section h1{
 .containerIcone i{
     color: #0065FC;
 }
+
+/* INFORMATION ASIDE */
+
+#information{
+    display: flex;
+    align-items: center;
+}
+
+#containairIconeInformation{
+    border: solid 1px grey ;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+
+}
+
+#containairIconeInformation i{
+    font-size: 12px;
+    color: #0065FC;
+}
+
+#information p{
+    font-size: 14px;
+    color: gray;
+    font-weight: 400;
+}
