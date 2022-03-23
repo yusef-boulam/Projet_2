@@ -11,6 +11,7 @@
 body {
     font-family: 'Raleway', sans-serif; 
     font-weight: 100;
+    margin: 0 30px;
 }
 
 /* header */
@@ -25,6 +26,7 @@ nav {
 nav img{
     height: 40px;
     margin-top: 30px;
+    margin-left: -30px;
 }
 
 nav ul {
@@ -40,6 +42,10 @@ nav li {
 }
 
 .hebergement{
+    border-top: solid 2px white;
+}
+
+.hebergement:hover{
     color: #0065FC;
     border-top: solid 2px #0065FC;
 }
@@ -48,12 +54,21 @@ nav li {
     border: solid 2px white;
 }
 
+.activites:hover{
+    color: #0065FC;
+    border-top: solid 2px #0065FC;
+}
+
 /* Sur tous types d'écran, quand la largeur de la fenêtre est comprise entre 768px et 992px (tablette) */
 /*  @media all and (min-width: 768px) and (max-width: 992px) */
 
 
 /* Sur les écrans, quand la largeur de la fenêtre fait au maximum 767px (telephone portable)*/
 @media screen and (max-width: 767px){
+    body {
+        margin : 0;
+    }
+    
     nav {
     display: flex;
         flex-direction: column;
@@ -80,15 +95,23 @@ nav li {
       
     }
     .hebergement{
-        color: #0065FC;
+      
         border-top: solid 2px white;
-        border-bottom: solid 3px #0065FC;
+        border-bottom: solid 3px #F2F2F2;
+    }
+    .hebergement:hover{
+      border-top: white;
+      border-bottom: solid 3px #0065FC;
     }
     
     .activites{
         border-bottom: solid 3px #F2F2F2;
         ;
     }
+    .activites:hover{
+        border-top: white;
+        border-bottom: solid 3px #0065FC;
+      }
 }
 
 /* TITRE ET PARAGRAPHE DU HEADER */
@@ -97,7 +120,7 @@ section{
     margin-left: 25px;
 }
 
-section h1{
+h1{
     font-size: 20px;
 }
 
@@ -209,4 +232,11 @@ section h1{
     font-size: 14px;
     color: gray;
     font-weight: 400;
+}
+
+/* Sur les écrans, quand la largeur de la fenêtre fait au maximum 767px (telephone portable)*/
+@media screen and (max-width: 767px){
+
+
+
 }
