@@ -90,3 +90,50 @@ nav li {
         ;
     }
 }
+
+/* TITRE ET PARAGRAPHE DU HEADER */
+
+section{
+    margin-left: 25px;
+}
+
+section h1{
+    font-size: 20px;
+}
+
+#premierParagraphe{
+   font-size: 13px;
+   color : grey;
+   margin-top: -8px;
+}
+
+/* recherche localisation HEADER */
+
+#rechercheLocalisation{
+    display: flex;
+    
+}
+
+
+#logoLocalisation{
+    background-color: #F2F2F2;
+  
+    text-align: center;
+    padding: 15px;
+    border-radius: 10px 0 0 10px;
+    
+}
+
+#saisieLocalisation{
+    border: #F2F2F2 solid 2px; 
+    padding-left: 10px;
+    font-weight: bold;
+}
+
+#boutonRecherche {
+    background-color: #0065FC;
+    border:#0065FC;
+    color: white;
+    border-radius: 0 15px 15px 0;
+    padding: 15px;
+}
