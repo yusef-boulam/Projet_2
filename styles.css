@@ -11,7 +11,7 @@
 body {
     font-family: 'Raleway', sans-serif; 
     font-weight: 100;
-    margin: 30px;
+    margin: 0 30px 0 30px;
 }
 
 input::placeholder {
@@ -86,11 +86,9 @@ h1{
 
 /* FORMULAIRE DE RECHERCHE */
 
-#rechercheLocalisation{
+#ContainerBarreDeRecherche{
     display: flex;
-    
 }
-
 
 #logoLocalisation{
     background-color: #F2F2F2;
@@ -121,9 +119,21 @@ h1{
 }
 
 
-/* ASIDE */
+/* ASIDE FILTRES */
 
-#filtres{
+#ContainerTitreEtFiltres{
+    display: flex;
+    flex-direction: row;
+    align-items: top;
+}
+
+h2{
+    font-size: 20px;
+    margin-top: 30px;
+    
+}
+
+#ZoneFiltres{
     display: flex;
     align-items: center;
     margin-top: 10px;
@@ -131,22 +141,19 @@ h1{
     
 }
 
-#filtres h2{
-    font-size: 15px;
-}
-
-.filtres_container{
+.ContainerFiltres{
     display: flex;
     align-items: center;
     padding-left: 20px;
     position: relative;
 }
 
-.filtres_container p {
+.ContainerFiltres p {
     border: solid 3px rgb(222, 235, 255) ;
     padding: 10px 15px 10px 48px;
     border-radius: 25px;
-    font-weight: 600;  
+    font-weight: 600; 
+    margin: 8px; 
 }
 
 .containerIcone {
@@ -205,7 +212,7 @@ h1{
 
 @media screen and (max-width: 767px){
     body {
-        margin : 0;
+        margin : 30px;
     }
     
     nav {
@@ -213,8 +220,8 @@ h1{
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        width: 100%;
-        min-width: 300px;
+        width: 110%;
+        margin: 0 -30px 0 -30px;
     }    
 
     nav ul {
@@ -230,6 +237,8 @@ h1{
     }
     nav img{
        border-color: solid black 2px;
+       margin-left: 10px;
+       margin-top: 10PX;
       
     }
     .hebergement{
@@ -253,6 +262,11 @@ h1{
       }
 
 /* FORMULAIRE DE RECHERCHE RESPONSIVE MOBILE*/
+
+    #ContainerBarreDeRecherche{
+   
+    
+    }
 
     #boutonRecherche {
     display: none;
@@ -281,4 +295,24 @@ h1{
        
        }
 
+/* ASIDE FILTRES RESPONSIVE */
+
+#ContainerTitreEtFiltres{
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+h2{
+    margin-bottom: 5px;
+    margin-top: 30px;
+    
+}
+
+#ZoneFiltres{
+    margin-left: -20px;
+    margin-top: 0;
+}
+.ContainerFiltres p {
+    margin: 8px 0;
+}
 }

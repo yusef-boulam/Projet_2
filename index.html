@@ -19,63 +19,65 @@
 				<li class="activites">Activités</li>
 			</ul>
 		</nav>
-	
-		<h1>Trouvez votre hebergement pour des vacances de reve</h1>
-		<p id="premierParagraphe">En plein centre ville ou en pleine nature</p>
-		<form id="rechercheLocalisation" method="post" action="traitement.php">
-			<div id="logoLocalisation">
-				<i class="fa-solid fa-location-dot"></i>
-			</div>
-			<input id="saisieLocalisation" type="search" name="saisieLocalisation"  placeholder="Marseille, France" size="20" maxlength="99" />
-			<div id ="containerLogoRechergeMobile">		
-				<input id="boutonRecherche" type="submit" value="Rechercher"/>
-				<div id ="ContainerRechercheMobile">
-					<input id="boutonRechercheMobile" type="submit" value=""/>	
-					<div id="logoRechercheMobile">
-						<i class="fa-solid fa-magnifying-glass"></i>
-					</div>
+			<h1>Trouvez votre hebergement pour des vacances de reve</h1>
+			<p id="premierParagraphe">En plein centre ville ou en pleine nature</p>
+					<!-- container barre de recherche--> 
+			<form id="ContainerBarreDeRecherche" method="post" action="traitement.php">
+					<!--  logo localisation --> 
+				<div id="logoLocalisation">
+					<i class="fa-solid fa-location-dot"></i>
 				</div>
-			</div>
-	</form>	
+					<!--  zone de saisie recherche --> 
+				<input id="saisieLocalisation" type="search" name="saisieLocalisation"  placeholder="Marseille, France" size="20" maxlength="99" />
+					<!--  bouton envoi --> 
+					<input id="boutonRecherche" type="submit" value="Rechercher"/>
+					<!--  bouton envoi RESPONSIVE   --> 
+					<div id ="ContainerRechercheMobile">
+						<input id="boutonRechercheMobile" type="submit" value=""/>	
+						<div id="logoRechercheMobile">
+							<i class="fa-solid fa-magnifying-glass"></i>
+						</div>
+					</div>
+			</form>	
 	</header>
-	<main>
-		<aside>
-			<div id="filtres">
-				<h2>Filtres</h2>
-				<div class="filtres_container">
-					<p>Economique</p>
-					<div class= "containerIcone">
-						<i class="fa-solid fa-money-bill-wave"></i>
+		<main>
+			<aside>
+				<div id="ContainerTitreEtFiltres">
+					<h2>Filtres</h2>
+					<div id="ZoneFiltres">	
+						<div class="ContainerFiltres">
+							<p>Economique</p>
+							<div class= "containerIcone">
+								<i class="fa-solid fa-money-bill-wave"></i>
+							</div>
+						</div>
+						<div class="ContainerFiltres">
+							<p>Familial</p>
+							<div class= "containerIcone">
+								<i class="fa-solid fa-child"></i>
+							</div>
+						</div>
+						<div class="ContainerFiltres">
+							<p>Romantique</p>
+							<div class= "containerIcone">
+								<i class="fa-solid fa-heart"></i>
+							</div>
+						</div>
+						<div class="ContainerFiltres">
+							<p>Animaux autorisés</p>
+							<div class= "containerIcone">
+								<i class="fa-solid fa-dog"></i>
+							</div>
+						</div>
 					</div>
 				</div>
-				<div class="filtres_container">
-					<p>Familial</p>
-					<div class= "containerIcone">
-						<i class="fa-solid fa-child"></i>
+				<div id="information">
+					<div id="containairIconeInformation">
+						<i class="fa-solid fa-info"></i>
 					</div>
-				</div>
-				<div class="filtres_container">
-					<p>Romantique</p>
-					<div class= "containerIcone">
-						<i class="fa-solid fa-heart"></i>
-					</div>
-				</div>
-				<div class="filtres_container">
-					<p>Animaux autorisés</p>
-					<div class= "containerIcone">
-						<i class="fa-solid fa-dog"></i>
-					</div>
-				</div>
-			</div>
-
-			<div id="information">
-				<div id="containairIconeInformation">
-					<i class="fa-solid fa-info"></i>
-				</div>
-				<P>Plus de 500 logements sont disponibles dans cette ville</P>
-			</div>	
-		</aside>	
-		
+					<P>Plus de 500 logements sont disponibles dans cette ville</P>
+				</div>	
+			</aside>	
 		<section>
 			<h2>Hébergement à Marseille</h2>
 			<img src="Images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="Auberge La Cannebière">
