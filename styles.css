@@ -24,6 +24,11 @@ h2{
     
 }
 
+h3{
+    font-size: 28px;
+    margin: 0 0 0 20px;
+}
+
 input::placeholder {
     font-family: 'Raleway', sans-serif; 
     color: black;
@@ -31,7 +36,7 @@ input::placeholder {
 }
 
 
-/* HEADER */
+/* NAV (HEADER) */
 
 nav {
     display: flex;
@@ -78,7 +83,7 @@ nav li {
 
 
 
-/* TITRE ET PARAGRAPHE DU HEADER */
+/* TITRE ET PARAGRAPHE (HEADER) */
 
 section{
     margin-left: 25px;
@@ -92,7 +97,7 @@ section{
    margin-top: -8px;
 }
 
-/* FORMULAIRE DE RECHERCHE */
+/* FORMULAIRE DE RECHERCHE (HEADER) */
 
 #ContainerBarreDeRecherche{
     display: flex;
@@ -127,14 +132,13 @@ section{
 }
 
 
-/* ASIDE FILTRES */
+/* FILTRES (ASIDE)  */
 
 #ContainerTitreEtFiltres{
     display: flex;
     flex-direction: row;
     align-items: top;
 }
-
 
 
 #ZoneFiltres{
@@ -175,7 +179,7 @@ section{
     color: #0065FC;
 }
 
-/* INFORMATION ASIDE */
+/* INFORMATION (ASIDE) */
 
 #information{
     display: flex;
@@ -204,6 +208,42 @@ section{
     color: black;
     font-weight: 400;
 }
+
+/* HEBERGEMENT A MARSEILLE (SECTION) */
+
+.card{
+    width: 400px;
+    border-radius: 20px;
+    object-fit:cover;
+    background-color: aqua;
+    margin: 20px;
+    
+
+
+}
+.card img
+{
+  height: 200PX;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 20px 20px 0 0;
+  padding: 8px;
+   
+}
+
+.card p
+{
+ margin: 8px 0 8px 20px;
+ font-size: 22px;
+   
+}
+
+.containerStars{
+    padding-bottom: 20px;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
 
 
 /* Sur tous types d'écran, quand la largeur de la fenêtre est comprise entre 768px et 992px (tablette) */
