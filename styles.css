@@ -73,15 +73,11 @@ nav li {
 }
 
 
-
-
 /* TITRE ET PARAGRAPHE (HEADER) */
 
 section{
     margin-left: 25px;
 }
-
-
 
 #premierParagraphe{
    font-size: 13px;
@@ -279,26 +275,16 @@ section{
         font-size: 130%;
     }
  
-    .hebergement{
+    .texteNav{
       
         border-top: white;
         border-bottom: solid 3px #F2F2F2;
     }
-    .hebergement:hover{
+    .texteNav:hover{
       border-top: white;
       border-bottom: solid 3px #0065FC;
     }
     
-    .activites{
-        border-top: white;
-        border-bottom: solid 3px #F2F2F2;
-        ;
-    }
-    .activites:hover{
-        border-top: white;
-        border-bottom: solid 3px #0065FC;
-      }
-
 
 /* TITRE ET PARAGRAPHE DU HEADER RESPONSIVE */
 
