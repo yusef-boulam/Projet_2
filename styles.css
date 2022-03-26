@@ -26,7 +26,6 @@ h2{
 
 h3{
     font-size: 15px;
-    margin: 0 0 0 20px;
 }
 
 input::placeholder {
@@ -199,7 +198,7 @@ section{
 
 /* HEBERGEMENT A MARSEILLE (SECTION) */
 
-.card{
+.card-hebergement-Marseille{
     width: 220px;
     border-radius: 20px;
     object-fit:cover;
@@ -209,7 +208,7 @@ section{
 
 
 }
-.card img
+.card-hebergement-Marseille img
 {
   height: 110PX;
   width: 100%;
@@ -219,7 +218,11 @@ section{
    
 }
 
-.card p
+.card-hebergement-Marseille_heading{
+    margin: 0 0 0 20px;
+}
+
+.card-hebergement-Marseille p
 {
  margin: 8px 0 8px 20px;
  font-size: 22px;
