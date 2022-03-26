@@ -25,7 +25,7 @@ h2{
 }
 
 h3{
-    font-size: 28px;
+    font-size: 15px;
     margin: 0 0 0 20px;
 }
 
@@ -63,23 +63,15 @@ nav li {
     text-align: center;
 }
 
-.hebergement{
+.texteNav{
     border-top: solid 2px white;
 }
 
-.hebergement:hover{
+.texteNav:hover{
     color: #0065FC;
     border-top: solid 2px #0065FC;
 }
 
-.activites{
-    border: solid 2px white;
-}
-
-.activites:hover{
-    color: #0065FC;
-    border-top: solid 2px #0065FC;
-}
 
 
 
@@ -212,7 +204,7 @@ section{
 /* HEBERGEMENT A MARSEILLE (SECTION) */
 
 .card{
-    width: 400px;
+    width: 220px;
     border-radius: 20px;
     object-fit:cover;
     background-color: aqua;
@@ -223,7 +215,7 @@ section{
 }
 .card img
 {
-  height: 200PX;
+  height: 110PX;
   width: 100%;
   object-fit: cover;
   border-radius: 20px 20px 0 0;
