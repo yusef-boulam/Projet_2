@@ -37,13 +37,13 @@ input::placeholder {
 
 /*LOGO ET NAV (HEADER) */
 
-.containerLogoSiteNAV{
+.containerLogoETnav{
     display: flex;
     justify-content: space-between;
 
 }
 
-.containerLogoSiteNAV img{
+.containerLogoETnav img{
     height: 50px;
     margin-top: 45px;
 }
@@ -250,31 +250,22 @@ section{
     }
     
 /* NAV RESPONSIVE */
-    .containerLogoSiteNAV {
-    display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        width: 110%;
-        margin: 0 -30px 0 -30px;
+    .containerLogoETnav {
+    flex-direction: column;
     }    
 
-    .containerLogoSiteNAV img{
-        border-color: solid black 2px;
-        margin-left: 10px;
-        margin-top: 10PX;
-       
+    .containerLogoETnav img{
+        width: 200px;
+        align-self: center;
      }
      
     ul {
-        Padding : 0;
-        width: 100%;
+        margin-left: -60px;
+        padding: 0;
     }
 
     .navLink {
-        text-align: center;
         width: 50%;
-        min-width: 150px;
         font-size: 130%;
         border-top: white;
         border-bottom: solid 3px #F2F2F2;
