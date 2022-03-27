@@ -195,7 +195,7 @@ ul {
  font-size: 15px;
 }
 
-.card-hebergement-Marseille{
+.cardHebergementMarseille{
     width: 220px;
     border-radius: 20px;
     object-fit:cover;
@@ -205,7 +205,7 @@ ul {
 
 
 }
-.card-hebergement-Marseille img
+.cardHebergementMarseille img
 {
   height: 110PX;
   width: 100%;
@@ -215,18 +215,18 @@ ul {
    
 }
 
-.card-hebergement-Marseille__heading{
+.cardHebergementMarseille__heading{
     margin: 0 0 0 20px;
 }
 
-.card-hebergement-Marseille p
+.cardHebergementMarseille p
 {
  margin: 8px 0 8px 20px;
  font-size: 22px;
    
 }
 
-.card-hebergement-Marseille__containerStars{
+.cardHebergementMarseille__containerStars{
     padding-bottom: 20px;
     margin-left: 20px;
     font-size: 20px;
