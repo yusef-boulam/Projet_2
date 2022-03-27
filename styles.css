@@ -35,13 +35,13 @@ input::placeholder {
 
 /*LOGO ET NAV (HEADER) */
 
-.containerLogoETnav{
+.containerLogoNav{
     display: flex;
     justify-content: space-between;
 
 }
 
-.containerLogoETnav img{
+.containerLogoNav img{
     height: 50px;
     margin-top: 45px;
 }
