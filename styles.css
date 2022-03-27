@@ -14,11 +14,6 @@ body {
     margin: 0 60px 0 60px;
 }
 
-h2{
-    font-size: 20px;
-    margin-top: 30px;
-    
-}
 
 h3{
     font-size: 15px;
@@ -31,7 +26,7 @@ input::placeholder {
 }
 
 
-/*LOGO ET NAV (HEADER) */
+/*HEADER LOGO NAV */
 
 .containerLogoNav{
     display: flex;
@@ -67,7 +62,7 @@ ul {
 }
 
 
-/* TITRE ET PARAGRAPHE (HEADER) */
+/* HEADER HEADING PARAGRAPH */
 
 #header__heading{
     font-size: 20px;
@@ -80,7 +75,7 @@ ul {
    margin-top: -8px;
 }
 
-/* FORMULAIRE DE RECHERCHE (HEADER) */
+/* HEADER SEARCH BAR LOCATION */
 
 #containerSearchBar{
     display: flex;
@@ -117,14 +112,19 @@ ul {
 
 /* FILTRES (ASIDE)  */
 
-#ContainerTitreEtFiltres{
+#aside__ContainerHeadingFilters{
     display: flex;
     flex-direction: row;
     align-items: top;
 }
 
+#aside__Heading{
+    font-size: 20px;
+    margin-top: 30px;
+}
 
-#ZoneFiltres{
+
+#aside__Filters{
     display: flex;
     align-items: center;
     margin-top: 10px;
@@ -132,14 +132,14 @@ ul {
     
 }
 
-.ContainerFiltres{
+.aside__Filters__ContainerFilter{
     display: flex;
     align-items: center;
     padding-left: 20px;
     position: relative;
 }
 
-.ContainerFiltres p {
+.aside__Filters__ContainerFilter p {
     border: solid 3px rgb(222, 235, 255) ;
     padding: 10px 15px 10px 48px;
     border-radius: 25px;
@@ -147,7 +147,7 @@ ul {
     margin: 8px; 
 }
 
-.containerIcone {
+.aside__Filters__ContainerFilter__ContainerIcone {
     background-color:#DEEBFF ;
     border-radius: 50%;
     width: 42px;
@@ -158,11 +158,11 @@ ul {
     justify-content: center;
 }
 
-.containerIcone i{
+.aside__Filters__ContainerFilter__ContainerIcone i{
     color: #0065FC;
 }
 
-/* INFORMATION (ASIDE) */
+/* ASIDE INFORMATION */
 
 #information{
     display: flex;
@@ -239,14 +239,14 @@ ul {
 
 /* Sur les écrans, quand la largeur de la fenêtre fait au maximum 767px (telephone portable)*/
 
-/* HEADER RESPONSIVE MOBILE */
+/* RESPONSIVE MOBILE */
 
 @media screen and (max-width: 767px){
     body {
         margin : 30px;
     }
     
-/* NAV RESPONSIVE */
+/* HEADER LOGO NAV RESPONSIVE */
     .containerLogoNav {
     flex-direction: column;
     }    
@@ -275,7 +275,7 @@ ul {
     }
     
 
-/* TITRE ET PARAGRAPHE DU HEADER RESPONSIVE */
+/* HEADER HEADING PARAGRAPH RESPONSIVE */
 
 
 #header__heading{
@@ -289,7 +289,7 @@ ul {
 }
 
 
-/* FORMULAIRE DE RECHERCHE RESPONSIVE MOBILE RESPONSIVE*/
+/* HEADER SEARCH BAR LOCATION MOBILE RESPONSIVE*/
 
     #containerSearchBar__searchButton {
     display: none;
@@ -318,24 +318,24 @@ ul {
        
        }
 
-/* ASIDE FILTRES RESPONSIVE */
+/* ASIDE FILTERS RESPONSIVE */
 
-#ContainerTitreEtFiltres{
+#aside__ContainerHeadingFilters{
     flex-direction: column;
     align-items: flex-start;
 }
 
-h2{
+#aside__Heading{
     margin-bottom: 5px;
     margin-top: 30px;
     
 }
 
-#ZoneFiltres{
+#aside__Filters{
     margin-left: -20px;
     margin-top: 0;
 }
-.ContainerFiltres p {
+.aside__Filters__ContainerFilter p {
     margin: 8px 0;
 }
 }
