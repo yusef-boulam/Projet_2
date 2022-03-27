@@ -15,9 +15,6 @@ body {
 }
 
 
-h3{
-    font-size: 15px;
-}
 
 input::placeholder {
     font-family: 'Raleway', sans-serif; 
@@ -194,6 +191,10 @@ ul {
 
 /* HEBERGEMENT A MARSEILLE (SECTION) */
 
+#SectionHebergementMarseille__Heading{
+ font-size: 15px;
+}
+
 .card-hebergement-Marseille{
     width: 220px;
     border-radius: 20px;
@@ -225,7 +226,7 @@ ul {
    
 }
 
-.containerStars{
+.card-hebergement-Marseille__containerStars{
     padding-bottom: 20px;
     margin-left: 20px;
     font-size: 20px;
