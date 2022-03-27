@@ -14,9 +14,7 @@ body {
     margin: 0 60px 0 60px;
 }
 
-h1{
-    font-size: 20px;
-}
+
 
 h2{
     font-size: 20px;
@@ -57,7 +55,7 @@ ul {
     
 }
 
-.navLink{
+.nav__link{
     font-size: 16px;
     padding-top: 40px;
     width: 160px;
@@ -65,7 +63,7 @@ ul {
     border: solid 2px white;
 }
 
-.navLink:hover{
+.nav__link:hover{
     color: #0065FC;
     border-top: solid 2px #0065FC;
 }
@@ -73,9 +71,10 @@ ul {
 
 /* TITRE ET PARAGRAPHE (HEADER) */
 
-section{
-    margin-left: 25px;
+.header__heading{
+    font-size: 20px;
 }
+
 
 #premierParagraphe{
    font-size: 13px;
@@ -217,7 +216,7 @@ section{
    
 }
 
-.card-hebergement-Marseille_heading{
+.card-hebergement-Marseille__heading{
     margin: 0 0 0 20px;
 }
 
@@ -260,12 +259,14 @@ section{
      }
      
     ul {
-        margin-left: -60px;
+   
         padding: 0;
+       
     }
 
     .navLink {
         width: 50%;
+        min-width: 200px;
         font-size: 130%;
         border-top: white;
         border-bottom: solid 3px #F2F2F2;
@@ -348,5 +349,4 @@ h2{
 }
 .ContainerFiltres p {
     margin: 8px 0;
-}
 }
