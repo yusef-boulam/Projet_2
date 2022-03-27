@@ -26,19 +26,19 @@
 		<h1 id="header__heading">Trouvez votre hebergement pour des vacances de reve</h1>
 		<p id="header__paragraph">En plein centre ville ou en pleine nature</p>
 					<!-- container barre de recherche--> 
-		<form id="ContainerBarreDeRecherche" method="post" action="traitement.php">
+		<form id="containerSearchBar" method="post" action="traitement.php">
 					<!--  logo localisation --> 
-			<div id="logoLocalisation">
+			<div id="containerSearchBar__logoLocation">
 				<i class="fa-solid fa-location-dot"></i>
 			</div>
 						<!--  zone de saisie recherche --> 
-			<input id="saisieLocalisation" type="search" name="saisieLocalisation"  placeholder="Marseille, France" size="20" maxlength="99" />
+			<input id="containerSearchBar__locationInput" type="search" name="saisieLocalisation"  placeholder="Marseille, France" size="20" maxlength="99" />
 						<!--  bouton envoi --> 
-			<input id="boutonRecherche" type="submit" value="Rechercher"/>
+			<input id="containerSearchBar__searchButton" type="submit" value="Rechercher"/>
 						<!--  bouton envoi RESPONSIVE   --> 
-			<div id ="ContainerRechercheMobile">
-				<input id="boutonRechercheMobile" type="submit" value=""/>	
-				<div id="logoRechercheMobile">
+			<div id ="containerSearchMobile">
+				<input id="containerSearchMobile__searchButtonMobile" type="submit" value=""/>	
+				<div id="containerSearchMobile__searchLogoButtonMobile">
 					<i class="fa-solid fa-magnifying-glass"></i>
 				</div>
 			</div>

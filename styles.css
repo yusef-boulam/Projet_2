@@ -14,8 +14,6 @@ body {
     margin: 0 60px 0 60px;
 }
 
-
-
 h2{
     font-size: 20px;
     margin-top: 30px;
@@ -84,11 +82,11 @@ ul {
 
 /* FORMULAIRE DE RECHERCHE (HEADER) */
 
-#ContainerBarreDeRecherche{
+#containerSearchBar{
     display: flex;
 }
 
-#logoLocalisation{
+#containerSearchBar__logoLocation{
     background-color: #F2F2F2;
   
     text-align: center;
@@ -97,13 +95,13 @@ ul {
     
 }
 
-#saisieLocalisation{
+#containerSearchBar__locationInput{
     border: #F2F2F2 solid 2px; 
     padding-left: 10px;
     font-weight: bold;
 }
 
-#boutonRecherche{
+#containerSearchBar__searchButton{
     background-color: #0065FC;
     border:#0065FC;
     color: white;
@@ -111,7 +109,7 @@ ul {
     border-radius: 0 15px 15px 0;
 }
 
-#ContainerRechercheMobile {
+#containerSearchMobile {
  display: none;
 
 }
@@ -249,22 +247,21 @@ ul {
     }
     
 /* NAV RESPONSIVE */
-    .containerLogoETnav {
+    .containerLogoNav {
     flex-direction: column;
     }    
 
-    .containerLogoETnav img{
+    .containerLogoNav img{
         width: 200px;
         align-self: center;
      }
      
     ul {
-   
         padding: 0;
        
     }
 
-    .navLink {
+    .nav__link {
         width: 50%;
         min-width: 200px;
         font-size: 130%;
@@ -272,8 +269,7 @@ ul {
         border-bottom: solid 3px #F2F2F2;
     }
  
-    }
-    .navLink:hover{
+    .nav__link:hover{
       border-top: white;
       border-bottom: solid 3px #0065FC;
     }
@@ -281,15 +277,12 @@ ul {
 
 /* TITRE ET PARAGRAPHE DU HEADER RESPONSIVE */
 
-section{
-    margin-left: 25px;
-}
 
-h1{
+#header__heading{
     font-size: 220%;
 }
 
-#premierParagraphe{
+#header__paragraph{
    font-size: 165%;
    color : grey;
    margin-top: -8px;
@@ -298,33 +291,28 @@ h1{
 
 /* FORMULAIRE DE RECHERCHE RESPONSIVE MOBILE RESPONSIVE*/
 
-    #ContainerBarreDeRecherche{
-   
-    
-    }
-
-    #boutonRecherche {
+    #containerSearchBar__searchButton {
     display: none;
     }
-    #ContainerRechercheMobile {
+
+    #containerSearchMobile {
         display:flex;
         position: relative;
         align-items: center;
         justify-content: center;
         margin-left: -20px;
-       
        }
-    #boutonRechercheMobile{
+
+    #containerSearchMobile__searchButtonMobile{
         width: 50px;
         height: 50px;
         background-color: #0065FC;
         border:#0065FC;
         color: white;
         border-radius:15px;
-
-
        }
-       #logoRechercheMobile {
+
+       #containerSearchMobile__searchLogoButtonMobile {
        position: absolute;
        color: white;
        
@@ -349,4 +337,5 @@ h2{
 }
 .ContainerFiltres p {
     margin: 8px 0;
+}
 }
