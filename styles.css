@@ -71,12 +71,12 @@ ul {
 
 /* TITRE ET PARAGRAPHE (HEADER) */
 
-.header__heading{
+#header__heading{
     font-size: 20px;
 }
 
 
-#premierParagraphe{
+#header__paragraph{
    font-size: 13px;
    color : grey;
    margin-top: -8px;
