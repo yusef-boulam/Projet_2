@@ -45,7 +45,7 @@ ul {
     
 }
 
-.nav__link{
+.nav li{
     font-size: 16px;
     padding-top: 40px;
     width: 160px;
@@ -53,7 +53,7 @@ ul {
     border: solid 2px white;
 }
 
-.nav__link:hover{
+.nav li:hover{
     color: #0065FC;
     border-top: solid 2px #0065FC;
 }
@@ -262,7 +262,7 @@ ul {
        
     }
 
-    .nav__link {
+    .nav li {
         width: 50%;
         min-width: 200px;
         font-size: 130%;
@@ -270,7 +270,7 @@ ul {
         border-bottom: solid 3px #F2F2F2;
     }
  
-    .nav__link:hover{
+    .nav li:hover{
       border-top: white;
       border-bottom: solid 3px #0065FC;
     }
