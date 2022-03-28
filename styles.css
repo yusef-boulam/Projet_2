@@ -7,14 +7,11 @@
    /* font-family: 'Raleway', sans-serif; 
       font-weight: 200*/
 
-
 body {
     font-family: 'Raleway', sans-serif; 
     font-weight: 100;
     margin: 0 60px 0 60px;
 }
-
-
 
 input::placeholder {
     font-family: 'Raleway', sans-serif; 
@@ -22,13 +19,11 @@ input::placeholder {
     opacity: 1;
 }
 
-
 /*HEADER LOGO NAV */
 
 .containerLogoNav{
     display: flex;
     justify-content: space-between;
-
 }
 
 .containerLogoNav img{
@@ -42,7 +37,6 @@ ul {
     list-style: none;
     margin-top: 0px;
     margin-right: -40px;
-    
 }
 
 .nav li{
@@ -57,7 +51,6 @@ ul {
     color: #0065FC;
     border-top: solid 2px #0065FC;
 }
-
 
 /* HEADER HEADING PARAGRAPH */
 
@@ -78,12 +71,10 @@ header p{
 }
 
 #containerSearchBar__logoLocation{
-    background-color: #F2F2F2;
-  
+    background-color: #F2F2F2; 
     text-align: center;
     padding: 15px;
-    border-radius: 10px 0 0 10px;
-    
+    border-radius: 10px 0 0 10px;   
 }
 
 #containerSearchBar__locationInput{
@@ -102,9 +93,7 @@ header p{
 
 #containerSearchMobile {
  display: none;
-
 }
-
 
 /* FILTRES (ASIDE)  */
 
@@ -119,13 +108,11 @@ header p{
     margin-top: 30px;
 }
 
-
 #aside__Filters{
     display: flex;
     align-items: center;
     margin-top: 10px;
     flex-wrap: wrap;
-    
 }
 
 .aside__Filters__ContainerFilter{
@@ -174,7 +161,6 @@ header p{
     align-items: center;
     justify-content: center;
     margin-right: 10px;
-
 }
 
 #aside__Information__ContainairInformationIcon i{
@@ -190,20 +176,32 @@ header p{
 
 /* HEBERGEMENT A MARSEILLE (SECTION) */
 
+#SectionHebergementMarseille{
+    background-color: #F2F2F2;
+    border-radius: 20px;
+}
+
+#ContainerHebergementMarseille{
+    width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
 #SectionHebergementMarseille h2{
- font-size: 15px;
+ font-size: 25px;
+ padding: 20px 0 0 20px;
 }
 
 .cardHebergementMarseille{
     width: 220px;
     border-radius: 20px;
     object-fit:cover;
-    background-color: aqua;
+    background-color: white;
     margin: 20px;
-    
-
-
 }
+
 .cardHebergementMarseille img
 {
   height: 110PX;
@@ -211,7 +209,6 @@ header p{
   object-fit: cover;
   border-radius: 20px 20px 0 0;
   padding: 8px;
-   
 }
 
 .cardHebergementMarseille__heading{
@@ -222,7 +219,6 @@ header p{
 {
  margin: 8px 0 8px 20px;
  font-size: 22px;
-   
 }
 
 .cardHebergementMarseille__containerStars{
@@ -231,11 +227,8 @@ header p{
     font-size: 20px;
 }
 
-
-
 /* Sur tous types d'écran, quand la largeur de la fenêtre est comprise entre 768px et 992px (tablette) */
 /*  @media all and (min-width: 768px) and (max-width: 992px) */
-
 
 /* Sur les écrans, quand la largeur de la fenêtre fait au maximum 767px (telephone portable)*/
 
@@ -245,7 +238,7 @@ header p{
     body {
         margin : 30px;
     }
-    
+
 /* HEADER LOGO NAV RESPONSIVE */
     .containerLogoNav {
     flex-direction: column;
@@ -258,7 +251,6 @@ header p{
      
     ul {
         padding: 0;
-       
     }
 
     .nav li {
@@ -268,15 +260,13 @@ header p{
         border-top: white;
         border-bottom: solid 3px #F2F2F2;
     }
- 
+
     .nav li:hover{
       border-top: white;
       border-bottom: solid 3px #0065FC;
     }
     
-
 /* HEADER HEADING PARAGRAPH RESPONSIVE */
-
 
 header h1{
     font-size: 220%;
@@ -287,7 +277,6 @@ header p{
    color : grey;
    margin-top: -8px;
 }
-
 
 /* HEADER SEARCH BAR LOCATION MOBILE RESPONSIVE*/
 
@@ -315,7 +304,6 @@ header p{
        #containerSearchMobile__searchLogoButtonMobile {
        position: absolute;
        color: white;
-       
        }
 
 /* ASIDE FILTERS RESPONSIVE */
@@ -327,8 +315,7 @@ header p{
 
 #aside__Heading{
     margin-bottom: 5px;
-    margin-top: 30px;
-    
+    margin-top: 30px;  
 }
 
 #aside__Filters{
@@ -338,4 +325,4 @@ header p{
 .aside__Filters__ContainerFilter p {
     margin: 8px 0;
 }
-}
+} 
