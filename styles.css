@@ -61,12 +61,11 @@ ul {
 
 /* HEADER HEADING PARAGRAPH */
 
-#header__heading{
+header h1{
     font-size: 20px;
 }
 
-
-#header__paragraph{
+header p{
    font-size: 13px;
    color : grey;
    margin-top: -8px;
@@ -115,7 +114,7 @@ ul {
     align-items: top;
 }
 
-#aside__Heading{
+#aside h2{
     font-size: 20px;
     margin-top: 30px;
 }
@@ -191,7 +190,7 @@ ul {
 
 /* HEBERGEMENT A MARSEILLE (SECTION) */
 
-#SectionHebergementMarseille__Heading{
+#SectionHebergementMarseille h2{
  font-size: 15px;
 }
 
@@ -279,11 +278,11 @@ ul {
 /* HEADER HEADING PARAGRAPH RESPONSIVE */
 
 
-#header__heading{
+header h1{
     font-size: 220%;
 }
 
-#header__paragraph{
+header p{
    font-size: 165%;
    color : grey;
    margin-top: -8px;
