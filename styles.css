@@ -174,15 +174,22 @@ header p{
     font-weight: 400;
 }
 
+/* CONTAINER HEBERGEMENT A MARSEILLE + PLUS POPULAIRES */
+
+#ContainerHebergementMarseillePlusPopulaires{
+display: flex;
+}
+
 /* HEBERGEMENT A MARSEILLE (SECTION) */
 
 #SectionHebergementMarseille{
     background-color: #F2F2F2;
     border-radius: 20px;
+    width: 800px;
 }
 
 #ContainerHebergementMarseille{
-    width: 800px;
+   
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -226,6 +233,63 @@ header p{
     margin-left: 20px;
     font-size: 20px;
 }
+
+/* LES PLUS POPULAIRES (SECTION) */
+
+#SectionPlusPopulaires{
+    background-color: #F2F2F2;
+    border-radius: 20px;
+    width: 500px;
+    margin-left: 40px;
+}
+
+#ContainerPlusPopulaires{
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+#SectionPlusPopulaires h2{
+ font-size: 25px;
+ padding: 20px 0 0 20px;
+}
+
+.cardPlusPopulaires{
+    width: 400px;
+    border-radius: 20px;
+    object-fit:cover;
+    background-color: white;
+    margin: 20px;
+    display: flex;
+}
+
+.cardPlusPopulaires img
+{
+  height: 150px;
+  width: 150px;
+  object-fit: cover;
+  border-radius: 20px 0 0 20px;
+  padding: 8px;
+}
+
+.cardPlusPopulaires__heading{
+    margin: 0 0 0 20px;
+}
+
+.cardPlusPopulaires p
+{
+ margin: 8px 0 8px 20px;
+ font-size: 22px;
+}
+
+.cardPlusPopulaires__containerStars{
+    padding-bottom: 20px;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
 
 /* Sur tous types d'écran, quand la largeur de la fenêtre est comprise entre 768px et 992px (tablette) */
 /*  @media all and (min-width: 768px) and (max-width: 992px) */
