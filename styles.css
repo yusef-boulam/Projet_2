@@ -8,14 +8,13 @@
       font-weight: 200*/
 
 
-
 body {
   font-family: "Raleway", sans-serif;
   font-weight: 100;
-  max-width: 60%;
+  max-width: 95%;
   margin-left:auto;
   margin-right: auto;
- /* margin: 0 60px 0 60px; */
+
 }
 
 input::placeholder {
@@ -33,12 +32,12 @@ input::placeholder {
 
 .containerLogoNav img {
   height: 50px;
-  margin-top: 45px;
+  margin-top: 50px;
 }
 
 ul {
   display: flex;
-  height: 100px;
+  height: 20%;
   list-style: none;
   margin-top: 0px;
   margin-right: -40px;
@@ -190,13 +189,15 @@ header p {
 #SectionHebergementMarseille {
   background-color: #f2f2f2;
   border-radius: 20px;
-  width: 800px;
+  width: 70%;
+
 }
 
 #ContainerHebergementMarseille {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+
 }
 
 #SectionHebergementMarseille h2 {
@@ -240,7 +241,7 @@ header p {
 #SectionPlusPopulaires {
   background-color: #f2f2f2;
   border-radius: 20px;
-  width: 500px;
+  width: 30%;
   margin-left: 40px;
 }
 
