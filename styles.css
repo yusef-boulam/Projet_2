@@ -290,6 +290,87 @@ header p {
 
 /* ACTIVITE MARSEILLE (SECTION) */
 
+#activiteMarseille {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 17% 4% 17% 4% 17% 4% 17%;
+  grid-template-rows: 13% 27% 8% 4% 8% 8% 20% 11%;
+}
+
+.cardActiviteMarseille {
+  border-radius: 20px;
+  object-fit: cover;
+  width: 100%;
+}
+
+#activiteMarseille h3{
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+
+.cardActiviteMarseille__vieuxPort img{
+  grid-column: 3/4;
+  grid-row: 2/8;
+}
+
+.cardActiviteMarseille__vieuxPort h3{
+  grid-column: 1/2;
+  grid-row: 8/9;
+}
+
+.cardActiviteMarseille__FortDePomegues  img {
+  grid-column: 3/4;
+  grid-row: 2/4;
+}
+
+.cardActiviteMarseille__FortDePomegues  h3 {
+  grid-column: 3/4;
+  grid-row: 4/6;
+}
+
+.cardActiviteMarseille__ilesDuFrioul img {
+  grid-column: 3/4;
+  grid-row: 7/8;
+}
+
+.cardActiviteMarseille__ilesDuFrioul h3 {
+  grid-column: 3/4;
+  grid-row: 8/9;
+}
+
+
+.cardActiviteMarseille__ParcNationalDesCalanques img {
+  grid-column: 5/6;
+  grid-row: 2/8;
+}
+
+.cardActiviteMarseille__ParcNationalDesCalanques h3 {
+  grid-column: 5/6;
+  grid-row: 8/9;
+}
+
+.cardActiviteMarseille__NotreDameDeLaGarde img {
+  grid-column: 7/8;
+  grid-row: 2/3;
+}
+
+.cardActiviteMarseille__NotreDameDeLaGarde h3 {
+  grid-column: 7/8;
+  grid-row: 3/4;
+}
+
+.cardActiviteMarseille__ParcLonchamp img {
+  grid-column: 7/8;
+  grid-row: 6/8;
+}
+
+.cardActiviteMarseille__ParcLonchamp img {
+  grid-column: 7/8;
+  grid-row: 8/9;
+}
+
+
+
 /* Sur tous types d'écran, quand la largeur de la fenêtre est comprise entre 768px et 992px (tablette) */
 /*  @media all and (min-width: 768px) and (max-width: 992px) */
 
@@ -302,7 +383,7 @@ header p {
     margin: 30px;
   }
 
-  /* HEADER LOGO NAV RESPONSIVE */
+  /* HEADER LOGO NAV MOBILE RESPONSIVE */
   .containerLogoNav {
     flex-direction: column;
   }
@@ -318,7 +399,6 @@ header p {
 
   .nav li {
     width: 50%;
-    min-width: 200px;
     font-size: 130%;
     border-top: white;
     border-bottom: solid 3px #f2f2f2;
@@ -329,7 +409,7 @@ header p {
     border-bottom: solid 3px #0065fc;
   }
 
-  /* HEADER HEADING PARAGRAPH RESPONSIVE */
+  /* HEADER HEADING PARAGRAPH MOBILE RESPONSIVE */
 
   header h1 {
     font-size: 220%;
@@ -369,7 +449,7 @@ header p {
     color: white;
   }
 
-  /* ASIDE FILTERS RESPONSIVE */
+  /* ASIDE FILTERS MOBILE RESPONSIVE */
 
   #aside__ContainerHeadingFilters {
     flex-direction: column;
