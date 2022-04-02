@@ -130,6 +130,11 @@ header p {
   position: relative;
 }
 
+.aside__Filters__ContainerFilter p:hover {
+  background-color: #deebff;
+  }
+  
+
 .aside__Filters__ContainerFilter p {
   border: solid 3px rgb(222, 235, 255);
   padding: 10px 15px 10px 48px;
@@ -397,7 +402,8 @@ header p {
 
   ul {
   padding: 0;
-  margin-left: -5%;
+  margin-left: -10%;
+ 
   }
 
   .nav li {
