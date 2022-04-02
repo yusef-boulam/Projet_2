@@ -43,15 +43,19 @@ ul {
   margin-right: -40px;
 }
 
-.nav li {
-  font-size: 16px;
-  padding-top: 40px;
-  width: 160px;
-  text-align: center;
-  border: solid 2px white;
+a {
+    outline: none;
+    text-decoration: none; 
+    font-size: 16px;
+    padding-top: 40px;
+    width: 160px;
+    text-align: center;
+    border: solid 2px white;
+    color: black;
+    display: block;
 }
 
-.nav li:hover {
+.nav a:hover {
   color: #0065fc;
   border-top: solid 2px #0065fc;
 }
@@ -304,13 +308,11 @@ header p {
 }
 
 #activiteMarseille h3{
-  grid-column: 1/2;
-  grid-row: 1/2;
+ 
 }
 
 .cardActiviteMarseille__vieuxPort img{
-  grid-column: 3/4;
-  grid-row: 2/8;
+ 
 }
 
 .cardActiviteMarseille__vieuxPort h3{
@@ -394,17 +396,24 @@ header p {
   }
 
   ul {
-    padding: 0;
+  padding: 0;
+  margin-left: -5%;
   }
 
   .nav li {
     width: 50%;
+  }
+
+  .nav a {
+    width: 100%;
     font-size: 130%;
     border-top: white;
     border-bottom: solid 3px #f2f2f2;
+    padding-bottom: 20px;
+
   }
 
-  .nav li:hover {
+  .nav a:hover {
     border-top: white;
     border-bottom: solid 3px #0065fc;
   }
