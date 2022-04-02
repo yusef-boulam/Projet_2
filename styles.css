@@ -14,6 +14,7 @@ body {
   max-width: 95%;
   margin-left:auto;
   margin-right: auto;
+  max-width: 1800px;
 
 }
 
@@ -208,6 +209,8 @@ header p {
   background-color: #f2f2f2;
   border-radius: 20px;
   width: 70%;
+  max-width: 1300px;
+  padding: 10px 20px 20px 20px;
 
 }
 
@@ -224,7 +227,7 @@ header p {
 }
 
 .cardHebergementMarseille {
-  width: 300px;
+  width: 350px;
   border-radius: 20px;
   object-fit: cover;
   background-color: white;
@@ -239,22 +242,23 @@ header p {
   width: 100%;
   object-fit: cover;
   border-radius: 20px 20px 0 0;
-  padding: 8px;
+  padding: 5px;
 }
 
 .cardHebergementMarseille__heading {
   margin: 0 0 0 20px;
+  font-size: 20px;
 }
 
 .cardHebergementMarseille p {
   margin: 8px 0 8px 20px;
-  font-size: 22px;
+  font-size: 15px;
 }
 
 .cardHebergementMarseille__containerStars {
   display: flex;
   flex-direction: row;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
   margin-left: 20px;
   font-size: 20px;
 }
@@ -265,8 +269,11 @@ header p {
   background-color: #f2f2f2;
   border-radius: 20px;
   width: 30%;
-  min-width: 400px;
+  max-width: 500px;
+  min-width: 450px;
   margin-left: 40px;
+  padding: 10px 20px 20px 20px;
+
 }
 
 #ContainerPlusPopulaires {
@@ -281,11 +288,11 @@ header p {
 }
 
 .cardPlusPopulaires {
-  width: 400px;
+  width: 420px;
   border-radius: 20px;
   object-fit: cover;
   background-color: white;
-  margin: 20px;
+  margin: 0 20px 20px 20px;
   display: flex;
   padding-top: 0;
   box-shadow: 5px 5px 20px rgb(174, 173, 173);
@@ -293,25 +300,31 @@ header p {
 }
 
 .cardPlusPopulaires img {
-  height: 160px;
+  height: 170px;
   width: 160px;
   object-fit: cover;
   border-radius: 20px 0 0 20px;
-  padding: 8px;
+  padding: 5px;
+  margin: 0;
 }
 
 .cardPlusPopulaires__heading {
-  padding:0 0 0 10px;
+  padding: 15px 10px 0 10px;
+  margin: 0;
+  font-size: 20px;
 }
 
 .cardPlusPopulaires p {
-  padding: 0 0 0 10px;
-  font-size: 22px;
+  padding: 10px 0 0 10px;
+  font-size: 15px;
+  margin: 0;
 }
 
 .cardPlusPopulaires__containerStars {
-  margin-top: 20px;
+  padding: 20px 0 0 10px;
   font-size: 20px;
+  display: flex;
+  flex-direction: row;
 }
 
 /* ACTIVITE MARSEILLE (SECTION) */
