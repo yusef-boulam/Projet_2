@@ -251,6 +251,7 @@ header p {
   background-color: #f2f2f2;
   border-radius: 20px;
   width: 30%;
+  min-width: 400px;
   margin-left: 40px;
 }
 
