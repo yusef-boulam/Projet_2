@@ -23,6 +23,15 @@ input::placeholder {
   opacity: 1;
 }
 
+.starsBlue{
+  color: #0065fc;
+}
+
+.starsGrey{
+  color: #cac8c8;
+  margin-left: 6px;
+}
+
 /*HEADER LOGO NAV */
 
 .containerLogoNav {
@@ -220,6 +229,7 @@ header p {
   object-fit: cover;
   background-color: white;
   margin: 20px;
+  text-align: left;
 }
 
 .cardHebergementMarseille img {
@@ -240,6 +250,8 @@ header p {
 }
 
 .cardHebergementMarseille__containerStars {
+  display: flex;
+  flex-direction: row;
   padding-bottom: 20px;
   margin-left: 20px;
   font-size: 20px;
