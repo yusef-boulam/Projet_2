@@ -227,7 +227,8 @@ header p {
 }
 
 .cardHebergementMarseille {
-  width: 350px;
+  width: 40%;
+  min-width: 300px;
   border-radius: 20px;
   object-fit: cover;
   background-color: white;
@@ -270,7 +271,7 @@ header p {
   border-radius: 20px;
   width: 30%;
   max-width: 500px;
-  min-width: 450px;
+  min-width: 450px; 
   margin-left: 40px;
   padding: 10px 20px 20px 20px;
 
@@ -288,7 +289,7 @@ header p {
 }
 
 .cardPlusPopulaires {
-  width: 420px;
+  width: 90%;
   border-radius: 20px;
   object-fit: cover;
   background-color: white;
@@ -301,7 +302,7 @@ header p {
 
 .cardPlusPopulaires img {
   height: 170px;
-  width: 160px;
+  width: 40%;
   object-fit: cover;
   border-radius: 20px 0 0 20px;
   padding: 5px;
@@ -410,6 +411,12 @@ header p {
 
 /* Sur tous types d'écran, quand la largeur de la fenêtre est comprise entre 768px et 992px (tablette) */
 /*  @media all and (min-width: 768px) and (max-width: 992px) */
+/* RESPONSIVE TABLETTE */
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+
+  
+}
 
 /* Sur les écrans, quand la largeur de la fenêtre fait au maximum 767px (telephone portable)*/
 
@@ -418,6 +425,10 @@ header p {
 @media screen and (max-width: 767px) {
   body {
     margin: 30px;
+  }
+
+  #ContainerHebergementMarseillePlusPopulaires {
+    flex-direction: column-reverse;
   }
 
   /* HEADER LOGO NAV MOBILE RESPONSIVE */
@@ -513,4 +524,21 @@ header p {
   .aside__Filters__ContainerFilter p {
     margin: 8px 0;
   }
+}
+
+ /* HEBERGEMENT A MARSEILLE MOBILE RESPONSIVE */
+ 
+ #SectionHebergementMarseille {
+  width: 100%;
+}
+
+.cardHebergementMarseille {
+  width: 100%;
+}
+
+/* LES PLUS POPULAIRES MOBILE RESPONSIVE */
+
+#SectionPlusPopulaires {
+  width: 100%;
+  margin: 0;
 }
