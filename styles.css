@@ -33,7 +33,7 @@ h3 {
 
 .starsGrey {
   color: #cac8c8;
-  margin-left: 6px;
+  margin-left: 3px;
 }
 
 /*HEADER LOGO NAV */
@@ -55,7 +55,7 @@ ul {
   margin-top: 0px;
 }
 
-a {
+nav a {
   outline: none;
   text-decoration: none;
   font-size: 13px;
@@ -157,11 +157,12 @@ input::placeholder {
 
 .aside__Filters__ContainerFilter p:hover {
   background-color: #deebff;
+  border: solid 3px #deebff;
 }
 
 
 .aside__Filters__ContainerFilter p {
-  border: solid 3px rgb(222, 235, 255);
+  border: solid 3px #f2f2f2;
   padding: 10px 15px 10px 48px;
   border-radius: 25px;
   font-weight: 600;
@@ -171,8 +172,8 @@ input::placeholder {
 .aside__Filters__ContainerFilter__ContainerIcone {
   background-color: #deebff;
   border-radius: 50%;
-  width: 42px;
-  height: 42px;
+  width: 44px;
+  height: 44px;
   position: absolute;
   display: flex;
   align-items: center;
@@ -224,58 +225,67 @@ input::placeholder {
 #SectionHebergementMarseille {
   background-color: #f2f2f2;
   border-radius: 20px;
-  width: 70%;
+  width: 67%;
   max-width: 1300px;
-  padding: 10px 20px 20px 20px;
-  margin-right: 40px;
+  padding: 1% 3% 2% 3%;
+  margin-right: 3%;
 }
 
 #ContainerHebergementMarseille {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-between;
 
 }
 
-
-
 .cardHebergementMarseille {
-  width: 40%;
-  min-width: 300px;
-  max-width: 350px;
+  width: 31%;
   border-radius: 20px;
+  min-width: 235px;
+  max-width: 350px;
   object-fit: cover;
   background-color: white;
-  margin: 20px;
+  margin: 0 0 4% 0;
   text-align: left;
   padding-top: 0;
-  box-shadow: 5px 5px 20px rgb(174, 173, 173);
+  box-shadow: 5px 5px 20px rgb(174 173 173);
+}
+
+.cardHebergementMarseille:hover h3 {
+  color: #0065fc;
 }
 
 .cardHebergementMarseille img {
-  height: 150px;
+  height: 114px;
   width: 100%;
   object-fit: cover;
   border-radius: 20px 20px 0 0;
-  padding: 5px;
+  padding: 3px;
 }
 
 .cardHebergementMarseille__heading {
-  margin: 0 0 0 20px;
-  font-size: 20px;
+  margin: 0 0 0 12px;
+  font-size: 16px;
 }
 
 .cardHebergementMarseille p {
-  margin: 8px 0 8px 20px;
+  margin: 3px 0 8px 12px;
   font-size: 15px;
 }
 
 .cardHebergementMarseille__containerStars {
   display: flex;
   flex-direction: row;
-  padding-bottom: 10px;
-  margin-left: 20px;
-  font-size: 20px;
+  padding-bottom: 8px;
+  margin-left: 12px;
+  font-size: 12px;
+}
+
+section a {
+  font-weight: bold;
+  outline: none;
+  text-decoration: none;
+  color: black;
 }
 
 /* LES PLUS POPULAIRES (SECTION) */
@@ -283,16 +293,16 @@ input::placeholder {
 #SectionPlusPopulaires {
   background-color: #f2f2f2;
   border-radius: 20px;
-  width: 30%;
+  width: 33%;
   max-width: 500px;
   min-width: 360px;
-  padding: 10px 20px 20px 20px;
+  padding: 1% 1% 1% 1%;
 }
 
 #ContainerPlusPopulaires {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 
@@ -584,8 +594,8 @@ input::placeholder {
   }
 
   .aside__Filters__ContainerFilter__ContainerIcone {
-    width: 60px;
-    height: 60px;
+    Width: 62px;
+    height: 62px;
     left: 21px;
   }
   
@@ -621,7 +631,7 @@ input::placeholder {
 }
 
 
-  /* HEBERGEMENT A MARSEILLE MOBILE RESPONSIVE */
+  /* HEBERGEMENT A MARSEILLE (SECTION) MOBILE RESPONSIVE */
 
   #SectionHebergementMarseille {
     width: 100%;
@@ -635,7 +645,7 @@ input::placeholder {
     width: 100%;
   }
 
-  /* LES PLUS POPULAIRES MOBILE RESPONSIVE */
+  /* LES PLUS POPULAIRES (SECTION) MOBILE RESPONSIVE */
 
   #SectionPlusPopulaires {
     width: 100%;
