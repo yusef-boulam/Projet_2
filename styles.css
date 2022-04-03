@@ -11,24 +11,27 @@
 body {
   font-family: "Raleway", sans-serif;
   font-weight: 100;
-  max-width: 95%;
-  margin-left:auto;
+  width: 95%;
+  margin-left: auto;
   margin-right: auto;
   max-width: 1800px;
 
 }
 
-input::placeholder {
-  font-family: "Raleway", sans-serif;
-  color: black;
-  opacity: 1;
+h2 {
+  font-size: 19px;
 }
 
-.starsBlue{
+h3 {
+  font-size: 17px ;
+}
+
+
+.starsBlue {
   color: #0065fc;
 }
 
-.starsGrey{
+.starsGrey {
   color: #cac8c8;
   margin-left: 6px;
 }
@@ -41,8 +44,8 @@ input::placeholder {
 }
 
 .containerLogoNav img {
-  height: 50px;
-  margin-top: 50px;
+  height: 40px;
+  align-self:flex-end;
 }
 
 ul {
@@ -50,19 +53,18 @@ ul {
   height: 20%;
   list-style: none;
   margin-top: 0px;
-  margin-right: -40px;
 }
 
 a {
-    outline: none;
-    text-decoration: none; 
-    font-size: 16px;
-    padding-top: 40px;
-    width: 160px;
-    text-align: center;
-    border: solid 2px white;
-    color: black;
-    display: block;
+  outline: none;
+  text-decoration: none;
+  font-size: 130px;
+  padding-top: 40px;
+  width: 160px;
+  text-align: center;
+  border: solid 2px white;
+  color: black;
+  display: block;
 }
 
 .nav a:hover {
@@ -74,6 +76,7 @@ a {
 
 header h1 {
   font-size: 20px;
+  margin-top: 25px;
 }
 
 header p {
@@ -113,23 +116,26 @@ header p {
   display: none;
 }
 
+
+input::placeholder {
+  font-family: "Raleway", sans-serif;
+  color: black;
+  opacity: 1;
+}
+
 /* FILTRES (ASIDE)  */
 
 #aside__ContainerHeadingFilters {
   display: flex;
   flex-direction: row;
-  align-items: top;
+  align-items: center;
+  margin-top: 20px;
 }
 
-#aside h2 {
-  font-size: 20px;
-  margin-top: 30px;
-}
 
 #aside__Filters {
   display: flex;
   align-items: center;
-  margin-top: 10px;
   flex-wrap: wrap;
 }
 
@@ -142,8 +148,8 @@ header p {
 
 .aside__Filters__ContainerFilter p:hover {
   background-color: #deebff;
-  }
-  
+}
+
 
 .aside__Filters__ContainerFilter p {
   border: solid 3px rgb(222, 235, 255);
@@ -173,6 +179,7 @@ header p {
 #aside__Information {
   display: flex;
   align-items: center;
+  padding: 10px 0 10px 0 ;
 }
 
 #aside__Information__ContainairInformationIcon {
@@ -201,6 +208,7 @@ header p {
 
 #ContainerHebergementMarseillePlusPopulaires {
   display: flex;
+  margin-top: 10px;
 }
 
 /* HEBERGEMENT A MARSEILLE (SECTION) */
@@ -211,7 +219,7 @@ header p {
   width: 70%;
   max-width: 1300px;
   padding: 10px 20px 20px 20px;
-
+  margin-right: 40px;
 }
 
 #ContainerHebergementMarseille {
@@ -221,14 +229,12 @@ header p {
 
 }
 
-#SectionHebergementMarseille h2 {
-  font-size: 25px;
-  padding: 20px 0 0 20px;
-}
+
 
 .cardHebergementMarseille {
   width: 40%;
   min-width: 300px;
+  max-width: 350px;
   border-radius: 20px;
   object-fit: cover;
   background-color: white;
@@ -271,10 +277,8 @@ header p {
   border-radius: 20px;
   width: 30%;
   max-width: 500px;
-  min-width: 450px; 
-  margin-left: 40px;
+  min-width: 360px;
   padding: 10px 20px 20px 20px;
-
 }
 
 #ContainerPlusPopulaires {
@@ -283,10 +287,6 @@ header p {
   justify-content: space-around;
 }
 
-#SectionPlusPopulaires h2 {
-  font-size: 25px;
-  padding: 20px 0 0 20px;
-}
 
 .cardPlusPopulaires {
   width: 90%;
@@ -301,7 +301,7 @@ header p {
 }
 
 .cardPlusPopulaires img {
-  height: 170px;
+  height: 130px;
   width: 40%;
   object-fit: cover;
   border-radius: 20px 0 0 20px;
@@ -343,25 +343,21 @@ header p {
   width: 100%;
 }
 
-#activiteMarseille h3{
- 
-}
+#activiteMarseille h3 {}
 
-.cardActiviteMarseille__vieuxPort img{
- 
-}
+.cardActiviteMarseille__vieuxPort img {}
 
-.cardActiviteMarseille__vieuxPort h3{
+.cardActiviteMarseille__vieuxPort h3 {
   grid-column: 1/2;
   grid-row: 8/9;
 }
 
-.cardActiviteMarseille__FortDePomegues  img {
+.cardActiviteMarseille__FortDePomegues img {
   grid-column: 3/4;
   grid-row: 2/4;
 }
 
-.cardActiviteMarseille__FortDePomegues  h3 {
+.cardActiviteMarseille__FortDePomegues h3 {
   grid-column: 3/4;
   grid-row: 4/6;
 }
@@ -414,8 +410,26 @@ header p {
 /* RESPONSIVE TABLETTE */
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
+ /* ASIDE FILTERS TABLETTE RESPONSIVE */
 
-  
+ #aside__ContainerHeadingFilters {
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+#aside__ContainerHeadingFilters h3 {
+  margin: 0 0 5px 0;
+}
+
+#aside__Filters {
+  margin-left: -20px;
+  margin-top: 0;
+}
+
+.aside__Filters__ContainerFilter p {
+  margin: 8px 0;
+  color: red;
+}
 }
 
 /* Sur les écrans, quand la largeur de la fenêtre fait au maximum 767px (telephone portable)*/
@@ -442,9 +456,9 @@ header p {
   }
 
   ul {
-  padding: 0;
-  margin-left: -10%;
- 
+    padding: 0;
+    margin-left: -10%;
+
   }
 
   .nav li {
@@ -521,24 +535,31 @@ header p {
     margin-left: -20px;
     margin-top: 0;
   }
+
   .aside__Filters__ContainerFilter p {
     margin: 8px 0;
   }
-}
 
- /* HEBERGEMENT A MARSEILLE MOBILE RESPONSIVE */
- 
- #SectionHebergementMarseille {
-  width: 100%;
-}
 
-.cardHebergementMarseille {
-  width: 100%;
-}
+  /* HEBERGEMENT A MARSEILLE MOBILE RESPONSIVE */
 
-/* LES PLUS POPULAIRES MOBILE RESPONSIVE */
+  #SectionHebergementMarseille {
+    width: 100%;
+  }
 
-#SectionPlusPopulaires {
-  width: 100%;
-  margin: 0;
+  .cardHebergementMarseille {
+    width: 100%;
+  }
+
+  .cardHebergementMarseille img {
+    width: 100%;
+  }
+
+  /* LES PLUS POPULAIRES MOBILE RESPONSIVE */
+
+  #SectionPlusPopulaires {
+    width: 100%;
+    margin: 0;
+  }
+
 }
