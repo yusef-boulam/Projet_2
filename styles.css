@@ -234,7 +234,7 @@ input::placeholder {
 #ContainerHebergementMarseille {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
 
 }
 
@@ -313,13 +313,14 @@ section a {
 #ContainerPlusPopulaires {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-around;
+  height: 90%;
 }
 
 
 .cardPlusPopulaires {
   width: 100%;
-  height: 100%;
+  height: 131px;
   border-radius: 20px;
   object-fit: cover;
   background-color: white;
@@ -328,6 +329,10 @@ section a {
   padding-top: 0;
   box-shadow: 5px 5px 20px rgb(174 173 173);
   text-align: start;
+}
+
+.cardPlusPopulaires:hover h3 {
+  color: #0065fc;
 }
 
 .cardPlusPopulaires img {
@@ -436,13 +441,14 @@ section a {
 }
 
 
-
+/* ///////////////////////////////////RESPONSIVE TABLETTE/////////////////////////////////////// */
 /* Sur tous types d'écran, quand la largeur de la fenêtre est comprise entre 768px et 992px (tablette) */
 /*  @media all and (min-width: 768px) and (max-width: 992px) */
 /* RESPONSIVE TABLETTE */
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
  /* ASIDE FILTERS TABLETTE RESPONSIVE */
+
 
  #aside__ContainerHeadingFilters {
   flex-direction: column;
@@ -462,11 +468,45 @@ section a {
   margin: 8px 0;
   color: red;
 }
+
+/* CONTAINER HEBERGEMENT A MARSEILLE + PLUS POPULAIRES TABLETTE RESPONSIVE*/
+
+#ContainerHebergementMarseillePlusPopulaires {
+  flex-direction: column-reverse;
 }
 
-/* Sur les écrans, quand la largeur de la fenêtre fait au maximum 767px (telephone portable)*/
+  /* HEBERGEMENT A MARSEILLE (SECTION) TABLETTE RESPONSIVE */
 
-/* RESPONSIVE MOBILE */
+  #SectionHebergementMarseille {
+    width: 100%;
+  }
+
+
+  /* LES PLUS POPULAIRES (SECTION) TABLETTE RESPONSIVE */
+
+  #SectionPlusPopulaires {
+    width: 100%;
+    margin: 0;
+    max-width: none;
+    margin-bottom: 2%;
+  }
+ 
+  #ContainerPlusPopulaires {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; 
+    flex-wrap:wrap;
+  }
+
+  .cardPlusPopulaires {
+    width: 31%;
+    min-width:250px;
+    margin-bottom: 3%;
+  }
+}
+
+/* ///////////////////////////////////RESPONSIVE MOBILE/////////////////////////////////////// */
+/* Sur les écrans, quand la largeur de la fenêtre fait au maximum 767px (telephone portable)*/
 
 @media screen and (max-width: 767px) {
 
@@ -474,11 +514,6 @@ section a {
     width: 100%;
     min-width: 500px;
  
-  }
-
-
-  #ContainerHebergementMarseillePlusPopulaires {
-    flex-direction: column-reverse;
   }
 
   /* HEADER LOGO NAV MOBILE RESPONSIVE */
@@ -644,6 +679,11 @@ section a {
   margin-top: 0;
 }
 
+/* CONTAINER HEBERGEMENT A MARSEILLE + PLUS POPULAIRES MOBILE RESPONSIVE*/
+
+#ContainerHebergementMarseillePlusPopulaires {
+  flex-direction: column-reverse;
+}
 
   /* HEBERGEMENT A MARSEILLE (SECTION) MOBILE RESPONSIVE */
 
