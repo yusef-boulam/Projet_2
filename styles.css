@@ -14,7 +14,8 @@ body {
   width: 95%;
   margin-left: auto;
   margin-right: auto;
-  max-width: 1800px;
+  max-width: 1540px;
+  min-width: 525px;
 
 }
 
@@ -23,7 +24,7 @@ h2 {
 }
 
 h3 {
-  font-size: 17px ;
+  font-size: 17px;
 }
 
 
@@ -45,7 +46,7 @@ h3 {
 
 .containerLogoNav img {
   height: 40px;
-  align-self:flex-end;
+  align-self: flex-end;
 }
 
 ul {
@@ -100,7 +101,7 @@ header p {
   border-radius: 15px 0 0 15px;
 }
 
-#containerSearchBar__logoLocation i{
+#containerSearchBar__logoLocation i {
   display: block;
   font-size: 18px;
 }
@@ -118,7 +119,7 @@ header p {
   color: white;
   padding: 15px;
   border-radius: 0 15px 15px 0;
-  pointer-events: none;  
+  pointer-events: none;
 }
 
 #containerSearchMobile {
@@ -189,7 +190,7 @@ input::placeholder {
 #aside__Information {
   display: flex;
   align-items: center;
-  padding: 10px 0 10px 0 ;
+  padding: 10px 0 10px 0;
 }
 
 #aside__Information__ContainairInformationIcon {
@@ -226,7 +227,7 @@ input::placeholder {
   background-color: #f2f2f2;
   border-radius: 20px;
   width: 67%;
-  max-width: 1300px;
+  max-width: 946px;
   padding: 1% 3% 2% 3%;
   margin-right: 3%;
 }
@@ -242,7 +243,7 @@ input::placeholder {
   width: 31%;
   border-radius: 20px;
   min-width: 235px;
-  max-width: 350px;
+  max-width: 255px;
   object-fit: cover;
   background-color: white;
   margin: 0 0 4% 0;
@@ -260,24 +261,24 @@ input::placeholder {
   width: 100%;
   object-fit: cover;
   border-radius: 20px 20px 0 0;
-  padding: 3px;
+  padding: 2%;
 }
 
 .cardHebergementMarseille__heading {
-  margin: 0 0 0 12px;
+  margin: 0 0 0 5%;
   font-size: 16px;
 }
 
 .cardHebergementMarseille p {
-  margin: 3px 0 8px 12px;
-  font-size: 15px;
+  margin: 2% 0 3% 5%;
+  font-size: 13px;
 }
 
 .cardHebergementMarseille__containerStars {
   display: flex;
   flex-direction: row;
-  padding-bottom: 8px;
-  margin-left: 12px;
+  padding-bottom: 4%;
+  margin-left: 5%;
   font-size: 12px;
 }
 
@@ -294,75 +295,79 @@ section a {
   background-color: #f2f2f2;
   border-radius: 20px;
   width: 33%;
-  max-width: 500px;
+  max-width: 392px;
   min-width: 360px;
   padding: 1% 3% 0 3%;
-
 }
 
-#ContainerheaderIcon{
+#ContainerheaderIcon {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-#ContainerheaderIcon_Icon{
- font-size: 2px;
+#ContainerheaderIcon_Icon {
+  font-size: 2px;
 }
 
 #ContainerPlusPopulaires {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  height: 90%;
+  height: 85%;
 }
-
 
 .cardPlusPopulaires {
   width: 100%;
-  height: 131px;
+  height: 100%;
+  max-height: 30%;
+  max-width: 300px;
   border-radius: 20px;
   object-fit: cover;
   background-color: white;
-  margin: 0 0 9% 0;
+  margin: 4% 0 4% 0;
   display: flex;
   padding-top: 0;
   box-shadow: 5px 5px 20px rgb(174 173 173);
   text-align: start;
 }
 
+.cardPlusPopulaires_ContainerDescriptionStars {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 2%;
+}
+
+.cardPlusPopulaires img {
+  height: 100%;
+  width: 40%;
+  object-fit: cover;
+  border-radius: 20px 0 0 20px;
+  padding: 2%;
+  margin: 0;
+}
+
 .cardPlusPopulaires:hover h3 {
   color: #0065fc;
 }
 
-.cardPlusPopulaires img {
-  height: 130px;
-  width: 40%;
-  object-fit: cover;
-  border-radius: 20px 0 0 20px;
-  padding: 5px;
-  margin: 0;
-}
-
 .cardPlusPopulaires__heading {
-  padding: 8% 0 0 6%;
-  margin: 0;
+  margin-top: 7%;
+  margin-bottom: 0%;
   font-size: 16px;
 }
 
 .cardPlusPopulaires p {
-  padding: 4% 0 0 6%;
-  font-size: 13px;
-  margin: 0;
+  font-size: 15px;
+  margin-top: 4%;
 }
 
 .cardPlusPopulaires__containerStars {
   display: flex;
   flex-direction: row;
-  padding: 17% 0% 2% 0%;
-  margin-left: 12px;
   font-size: 12px;
-
+  margin-bottom: 1%;
 }
 
 /* ACTIVITE MARSEILLE (SECTION) */
@@ -447,33 +452,33 @@ section a {
 /* RESPONSIVE TABLETTE */
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
- /* ASIDE FILTERS TABLETTE RESPONSIVE */
+  /* ASIDE FILTERS TABLETTE RESPONSIVE */
 
 
- #aside__ContainerHeadingFilters {
-  flex-direction: column;
-  align-items: flex-start;
-}
+  #aside__ContainerHeadingFilters {
+    flex-direction: column;
+    align-items: flex-start;
+  }
 
-#aside__ContainerHeadingFilters h3 {
-  margin: 0 0 5px 0;
-}
+  #aside__ContainerHeadingFilters h3 {
+    margin: 0 0 5px 0;
+  }
 
-#aside__Filters {
-  margin-left: -20px;
-  margin-top: 0;
-}
+  #aside__Filters {
+    margin-left: -20px;
+    margin-top: 0;
+  }
 
-.aside__Filters__ContainerFilter p {
-  margin: 8px 0;
-  color: red;
-}
+  .aside__Filters__ContainerFilter p {
+    margin: 8px 0;
+    color: red;
+  }
 
-/* CONTAINER HEBERGEMENT A MARSEILLE + PLUS POPULAIRES TABLETTE RESPONSIVE*/
+  /* CONTAINER HEBERGEMENT A MARSEILLE + PLUS POPULAIRES TABLETTE RESPONSIVE*/
 
-#ContainerHebergementMarseillePlusPopulaires {
-  flex-direction: column-reverse;
-}
+  #ContainerHebergementMarseillePlusPopulaires {
+    flex-direction: column-reverse;
+  }
 
   /* HEBERGEMENT A MARSEILLE (SECTION) TABLETTE RESPONSIVE */
 
@@ -490,17 +495,17 @@ section a {
     max-width: none;
     margin-bottom: 2%;
   }
- 
+
   #ContainerPlusPopulaires {
     display: flex;
     flex-direction: row;
-    justify-content: space-around; 
-    flex-wrap:wrap;
+    justify-content: space-around;
+    flex-wrap: wrap;
   }
 
   .cardPlusPopulaires {
     width: 31%;
-    min-width:250px;
+    min-width: 250px;
     margin-bottom: 3%;
   }
 }
@@ -513,14 +518,18 @@ section a {
   body {
     width: 100%;
     min-width: 500px;
- 
+
   }
 
+  h2 {
+    font-size: 25px;
+}
+
   /* HEADER LOGO NAV MOBILE RESPONSIVE */
-  
+
   .containerLogoNav {
     flex-direction: column;
-    margin-top: 30px ;
+    margin-top: 30px;
   }
 
   .containerLogoNav img {
@@ -558,18 +567,18 @@ section a {
 
   header h1 {
     font-size: 30px;
-    margin:25px;
+    margin: 25px;
   }
 
   header p {
     font-size: 22px;
     color: grey;
-    margin:25px;
+    margin: 25px;
   }
 
   /* HEADER SEARCH BAR LOCATION MOBILE RESPONSIVE*/
 
-  #containerSearchBar{
+  #containerSearchBar {
     margin: 35px 25px 35px 25px;
   }
 
@@ -583,7 +592,7 @@ section a {
   }
 
   #containerSearchBar__locationInput {
-    width: 100% ;
+    width: 100%;
     font-size: 23px;
   }
 
@@ -606,12 +615,16 @@ section a {
     border: #0065fc;
     color: white;
     border-radius: 15px;
-    pointer-events: none;  
+    pointer-events: none;
   }
 
   #containerSearchMobile__searchLogoButtonMobile {
     position: absolute;
     color: white;
+  }
+
+  #containerSearchMobile__searchLogoButtonMobile {
+    font-size: 23px;
   }
 
   /* ASIDE FILTERS MOBILE RESPONSIVE */
@@ -622,8 +635,8 @@ section a {
   }
 
   #aside__ContainerHeadingFilters h3 {
-  margin: 0px 0 8px 25px;
-  font-size: 20px;
+    margin: 0px 0 8px 25px;
+    font-size: 20px;
   }
 
   #aside__Filters {
@@ -632,8 +645,8 @@ section a {
   }
 
   .aside__Filters__ContainerFilter {
-   font-size: 21px;
-   margin-right: 15px;
+    font-size: 21px;
+    margin-right: 15px;
   }
 
   .aside__Filters__ContainerFilter p {
@@ -647,56 +660,78 @@ section a {
     height: 62px;
     left: 21px;
   }
-  
+
 
   /* ASIDE INFORMATION MOBILE RESPONSIVE */
 
-#aside__Information {
-  margin-left: 25px;
-  align-items: flex-start;
-  margin-top: 20px;
-}
+  #aside__Information {
+    margin-left: 25px;
+    align-items: flex-start;
+    margin-top: 20px;
+  }
 
-#aside__Information__ContainairInformationIcon {
-  border: solid 1px grey;
-  border-radius: 50%;
-  width: 25px;
-  height: 25px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-right: 10px;
-}
+  #aside__Information__ContainairInformationIcon {
+    border: solid 1px grey;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+  }
 
-#aside__Information__ContainairInformationIcon i {
-  font-size: 17px;
-  color: #0065fc;
-}
+  #aside__Information__ContainairInformationIcon i {
+    font-size: 17px;
+    color: #0065fc;
+  }
 
-#aside__Information p {
-  font-size: 20px;
-  font-weight: 400;
-  margin-top: 0;
-}
+  #aside__Information p {
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 0;
+  }
 
-/* CONTAINER HEBERGEMENT A MARSEILLE + PLUS POPULAIRES MOBILE RESPONSIVE*/
+  /* CONTAINER HEBERGEMENT A MARSEILLE + PLUS POPULAIRES MOBILE RESPONSIVE*/
 
-#ContainerHebergementMarseillePlusPopulaires {
-  flex-direction: column-reverse;
-}
+  #ContainerHebergementMarseillePlusPopulaires {
+    flex-direction: column-reverse;
+  }
 
   /* HEBERGEMENT A MARSEILLE (SECTION) MOBILE RESPONSIVE */
 
   #SectionHebergementMarseille {
     width: 100%;
+    background-color: white;
+  }
+
+  .ContainerheaderIcon_Icon {
+    font-size: 20px;
   }
 
   .cardHebergementMarseille {
     width: 100%;
+    max-width: none;
   }
 
   .cardHebergementMarseille img {
     width: 100%;
+    height: 170px;
+  }
+  
+  .cardHebergementMarseille__heading {
+    padding: 0 0px 5px 5px;
+    font-size: 20px;
+  }
+  
+  .cardHebergementMarseille p {
+    padding: 0 0px 5px 5px;
+    font-size: 17px;
+  }
+
+  .cardHebergementMarseille__containerStars {
+    padding: 0 0px 15px 5px;
+    font-size: 14px;
   }
 
   /* LES PLUS POPULAIRES (SECTION) MOBILE RESPONSIVE */
@@ -704,6 +739,34 @@ section a {
   #SectionPlusPopulaires {
     width: 100%;
     margin: 0;
+    max-width: none;
+    margin-bottom: 3%;
+    border-radius: 0;
+    padding: 1% 4% 0 4%;
+
   }
+
+  .cardPlusPopulaires {
+    margin: 0 auto 3% auto;
+    height: 175px;
+  }
+
+  .cardPlusPopulaires img{
+    height: 100%;
+  }
+
+  .cardPlusPopulaires__heading {
+    font-size: 20px;
+  }
+  
+  .cardPlusPopulaires p {
+    font-size: 16px;
+}
+
+.cardPlusPopulaires__containerStars {
+  padding: 22% 0% 2% 0%;
+  font-size: 13px;
+}
+
 
 }
