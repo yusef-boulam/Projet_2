@@ -731,7 +731,7 @@ section a {
 
   .cardHebergementMarseille {
     width: 100%;
-    max-width: none;
+    max-width: 520px;
   }
 
   .cardHebergementMarseille img {
@@ -754,21 +754,28 @@ section a {
     font-size: 14px;
   }
 
+  #SectionHebergementMarseille a {
+    display: block;
+    margin-top: 4%;
+    font-size: 20px;
+  }
+
   /* LES PLUS POPULAIRES (SECTION) MOBILE RESPONSIVE */
 
   #SectionPlusPopulaires {
     width: 100%;
     margin: 0;
     max-width: none;
-    margin-bottom: 3%;
+    margin-bottom: 2%;
     border-radius: 0;
-    padding: 1% 4% 0 4%;
+    padding: 1% 4% 6% 4%;
 
   }
 
   .cardPlusPopulaires {
     margin: 0 auto 3% auto;
-    height: 175px;
+    height: 180px;
+    max-width: 520px;
   }
 
   .cardPlusPopulaires img{
@@ -780,13 +787,12 @@ section a {
   }
   
   .cardPlusPopulaires p {
-    font-size: 16px;
+    font-size: 17px;
 }
 
 .cardPlusPopulaires__containerStars {
-  padding: 22% 0% 2% 0%;
-  font-size: 13px;
+  padding-bottom: 2%;
+  font-size: 14px;
 }
-
 
 }
