@@ -319,7 +319,7 @@ section a {
 .cardPlusPopulaires {
   width: 100%;
   height: 100%;
-  max-height: 30%;
+  max-height: 26%;
   max-width: 300px;
   border-radius: 20px;
   object-fit: cover;
@@ -371,10 +371,15 @@ section a {
 /* ACTIVITE MARSEILLE (SECTION) */
 
 #activiteMarseille {
-  width: 100%;
   display: grid;
-  grid-template-columns: 17% 4% 17% 4% 17% 4% 17%;
-  grid-template-rows: 13% 27% 8% 4% 8% 8% 20% 11%;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto repeat(5, 5em);
+}
+
+.activite-marseille_titre {
+  grid-column: 1 / span 4;
+  grid-row: 1;
+  margin: 0;
 }
 
 .cardActiviteMarseille {
@@ -449,12 +454,12 @@ section a {
 /*  @media all and (min-width: 768px) and (max-width: 992px) */
 /* RESPONSIVE TABLETTE */
 
-@media screen and (min-width: 768px) and (max-width: 992px) {
- 
-  h3{
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+  h3 {
     font-size: 15px;
   }
- 
+
   /* ASIDE FILTERS TABLETTE RESPONSIVE */
 
 
@@ -474,7 +479,6 @@ section a {
 
   .aside__Filters__ContainerFilter p {
     margin: 8px 0;
-    color: red;
   }
 
   /* CONTAINER HEBERGEMENT A MARSEILLE + PLUS POPULAIRES TABLETTE RESPONSIVE*/
@@ -515,19 +519,19 @@ section a {
     min-width: 210px;
     height: 130px;
   }
-  
+
   .cardPlusPopulaires p {
     font-size: 12px;
   }
-  
+
   .cardPlusPopulaires__containerStars {
     font-size: 12px;
     margin-bottom: 4%;
   }
-  
 
 
-  
+
+
 }
 
 /* ///////////////////////////////////RESPONSIVE MOBILE/////////////////////////////////////// */
@@ -543,7 +547,7 @@ section a {
 
   h2 {
     font-size: 25px;
-}
+  }
 
   /* HEADER LOGO NAV MOBILE RESPONSIVE */
 
@@ -738,12 +742,12 @@ section a {
     width: 100%;
     height: 170px;
   }
-  
+
   .cardHebergementMarseille__heading {
     padding: 0 0px 5px 5px;
     font-size: 20px;
   }
-  
+
   .cardHebergementMarseille p {
     padding: 0 0px 5px 5px;
     font-size: 17px;
@@ -778,21 +782,21 @@ section a {
     max-width: 520px;
   }
 
-  .cardPlusPopulaires img{
+  .cardPlusPopulaires img {
     height: 100%;
   }
 
   .cardPlusPopulaires__heading {
     font-size: 20px;
   }
-  
+
   .cardPlusPopulaires p {
     font-size: 17px;
-}
+  }
 
-.cardPlusPopulaires__containerStars {
-  padding-bottom: 2%;
-  font-size: 14px;
-}
+  .cardPlusPopulaires__containerStars {
+    padding-bottom: 2%;
+    font-size: 14px;
+  }
 
 }
