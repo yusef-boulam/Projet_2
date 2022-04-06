@@ -87,12 +87,12 @@ header p {
 
 /* HEADER SEARCH BAR LOCATION */
 
-#containerSearchBar {
+.containerSearchBar {
   display: flex;
   margin-top: 20px;
 }
 
-#containerSearchBar__logoLocation {
+.containerSearchBar__logoLocation {
   background-color: #f2f2f2;
   display: flex;
   justify-content: center;
@@ -101,19 +101,19 @@ header p {
   border-radius: 15px 0 0 15px;
 }
 
-#containerSearchBar__logoLocation i {
+.containerSearchBar__logoLocation i {
   display: block;
   font-size: 18px;
 }
 
-#containerSearchBar__locationInput {
+.containerSearchBar__locationInput {
   border: #f2f2f2 solid 2px;
   padding-left: 10px;
   font-weight: bold;
   padding-left: 20px;
 }
 
-#containerSearchBar__searchButton {
+.containerSearchBar__searchButton {
   background-color: #0065fc;
   border: #0065fc;
   color: white;
@@ -122,7 +122,7 @@ header p {
   pointer-events: none;
 }
 
-#containerSearchMobile {
+.containerSearchMobile {
   display: none;
 }
 
@@ -134,7 +134,7 @@ input::placeholder {
 
 /* FILTRES (ASIDE)  */
 
-#aside__ContainerHeadingFilters {
+.aside__ContainerHeadingFilters {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -142,7 +142,7 @@ input::placeholder {
 }
 
 
-#aside__Filters {
+.aside__Filters {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
@@ -186,13 +186,13 @@ input::placeholder {
 
 /* ASIDE INFORMATION */
 
-#aside__Information {
+.aside__Information {
   display: flex;
   align-items: center;
   padding: 10px 0 10px 0;
 }
 
-#aside__Information__ContainairInformationIcon {
+.aside__Information__ContainairInformationIcon {
   border: solid 1px grey;
   border-radius: 50%;
   width: 20px;
@@ -203,19 +203,19 @@ input::placeholder {
   margin-right: 10px;
 }
 
-#aside__Information__ContainairInformationIcon i {
+.aside__Information__ContainairInformationIcon i {
   font-size: 12px;
   color: #0065fc;
 }
 
-#aside__Information p {
+.aside__Information p {
   font-size: 14px;
   font-weight: 400;
 }
 
 /* CONTAINER HEBERGEMENT A MARSEILLE + PLUS POPULAIRES */
 
-#ContainerHebergementMarseillePlusPopulaires {
+.ContainerHebergementMarseillePlusPopulaires {
   display: flex;
   margin-top: 10px;
 }
@@ -231,7 +231,7 @@ input::placeholder {
   margin-right: 2%;
 }
 
-#ContainerHebergementMarseille {
+.ContainerHebergementMarseille {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -289,7 +289,7 @@ section a {
 
 /* LES PLUS POPULAIRES (SECTION) */
 
-#SectionPlusPopulaires {
+.SectionPlusPopulaires {
   background-color: #f2f2f2;
   border-radius: 20px;
   width: 33%;
@@ -298,17 +298,17 @@ section a {
   padding: 1% 3% 0 3%;
 }
 
-#ContainerheaderIcon {
+.ContainerheaderIcon {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-#ContainerheaderIcon_Icon {
+.ContainerheaderIcon_Icon {
   font-size: 2px;
 }
 
-#ContainerPlusPopulaires {
+.ContainerPlusPopulaires {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -462,16 +462,16 @@ section a {
   /* ASIDE FILTERS TABLETTE RESPONSIVE */
 
 
-  #aside__ContainerHeadingFilters {
+  .aside__ContainerHeadingFilters {
     flex-direction: column;
     align-items: flex-start;
   }
 
-  #aside__ContainerHeadingFilters h3 {
+  .aside__ContainerHeadingFilters h3 {
     margin: 0 0 5px 0;
   }
 
-  #aside__Filters {
+  .aside__Filters {
     margin-left: -20px;
     margin-top: 0;
   }
@@ -482,7 +482,7 @@ section a {
 
   /* CONTAINER HEBERGEMENT A MARSEILLE + PLUS POPULAIRES TABLETTE RESPONSIVE*/
 
-  #ContainerHebergementMarseillePlusPopulaires {
+  .ContainerHebergementMarseillePlusPopulaires {
     flex-direction: column-reverse;
   }
 
@@ -499,14 +499,14 @@ section a {
   /* LES PLUS POPULAIRES (SECTION) TABLETTE RESPONSIVE */
 
 
-  #SectionPlusPopulaires {
+  .SectionPlusPopulaires {
     width: 100%;
     margin: 0;
     max-width: none;
     margin-bottom: 2%;
   }
 
-  #ContainerPlusPopulaires {
+  .ContainerPlusPopulaires {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -601,29 +601,29 @@ section a {
 
   /* HEADER SEARCH BAR LOCATION MOBILE RESPONSIVE*/
 
-  #containerSearchBar {
+  .containerSearchBar {
     margin: 35px 25px 35px 25px;
   }
 
-  #containerSearchBar__logoLocation {
+  .containerSearchBar__logoLocation {
     width: 70px;
     height: 70px;
   }
 
-  #containerSearchBar__logoLocation i {
+  .containerSearchBar__logoLocation i {
     font-size: 22px;
   }
 
-  #containerSearchBar__locationInput {
+  .containerSearchBar__locationInput {
     width: 100%;
     font-size: 23px;
   }
 
-  #containerSearchBar__searchButton {
+  .containerSearchBar__searchButton {
     display: none;
   }
 
-  #containerSearchMobile {
+  .containerSearchMobile {
     display: flex;
     position: relative;
     align-items: center;
@@ -631,7 +631,7 @@ section a {
     margin-left: -20px;
   }
 
-  #containerSearchMobile__searchButtonMobile {
+  .containerSearchMobile__searchButtonMobile {
     width: 70px;
     height: 70px;
     background-color: #0065fc;
@@ -641,28 +641,28 @@ section a {
     pointer-events: none;
   }
 
-  #containerSearchMobile__searchLogoButtonMobile {
+  .containerSearchMobile__searchLogoButtonMobile {
     position: absolute;
     color: white;
   }
 
-  #containerSearchMobile__searchLogoButtonMobile {
+  .containerSearchMobile__searchLogoButtonMobile {
     font-size: 23px;
   }
 
   /* ASIDE FILTERS MOBILE RESPONSIVE */
 
-  #aside__ContainerHeadingFilters {
+  .aside__ContainerHeadingFilters {
     flex-direction: column;
     align-items: flex-start;
   }
 
-  #aside__ContainerHeadingFilters h3 {
+  .aside__ContainerHeadingFilters h3 {
     margin: 0px 0 8px 25px;
     font-size: 20px;
   }
 
-  #aside__Filters {
+  .aside__Filters {
     margin-left: 0 10 0 -20px;
     margin-top: 0;
   }
@@ -687,13 +687,13 @@ section a {
 
   /* ASIDE INFORMATION MOBILE RESPONSIVE */
 
-  #aside__Information {
+  .aside__Information {
     margin-left: 25px;
     align-items: flex-start;
     margin-top: 20px;
   }
 
-  #aside__Information__ContainairInformationIcon {
+  .aside__Information__ContainairInformationIcon {
     border: solid 1px grey;
     border-radius: 50%;
     width: 25px;
@@ -704,12 +704,12 @@ section a {
     margin-right: 10px;
   }
 
-  #aside__Information__ContainairInformationIcon i {
+  .aside__Information__ContainairInformationIcon i {
     font-size: 17px;
     color: #0065fc;
   }
 
-  #aside__Information p {
+  .aside__Information p {
     font-size: 20px;
     font-weight: 400;
     margin-top: 0;
@@ -717,7 +717,7 @@ section a {
 
   /* CONTAINER HEBERGEMENT A MARSEILLE + PLUS POPULAIRES MOBILE RESPONSIVE*/
 
-  #ContainerHebergementMarseillePlusPopulaires {
+  .ContainerHebergementMarseillePlusPopulaires {
     flex-direction: column-reverse;
   }
 
@@ -765,7 +765,7 @@ section a {
 
   /* LES PLUS POPULAIRES (SECTION) MOBILE RESPONSIVE */
 
-  #SectionPlusPopulaires {
+  .SectionPlusPopulaires {
     width: 100%;
     margin: 0;
     max-width: none;
@@ -779,7 +779,7 @@ section a {
     margin: 0 auto 3% auto;
     height: 180px;
     max-width: 520px;
-  }
+  }SE
 
   .cardPlusPopulaires img {
     height: 100%;

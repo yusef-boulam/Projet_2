@@ -29,20 +29,20 @@
 
 		<!-- BARRE DE RECHERCHE -->
 		<!-- container barre de recherche -->
-		<form id="containerSearchBar" method="post" action="traitement.php">
+		<form class="containerSearchBar" method="post" action="traitement.php">
 			<!--  logo localisation -->
-			<div id="containerSearchBar__logoLocation">
+			<div class="containerSearchBar__logoLocation">
 				<i class="fa-solid fa-location-dot"></i>
 			</div>
 			<!--  zone de saisie recherche -->
-			<input id="containerSearchBar__locationInput" type="search" name="saisieLocalisation"
+			<input class="containerSearchBar__locationInput" type="search" name="saisieLocalisation"
 				placeholder="Marseille, France" size="20" maxlength="99" />
 			<!--  bouton envoi -->
-			<input id="containerSearchBar__searchButton" type="submit" value="Rechercher" />
+			<input class="containerSearchBar__searchButton" type="submit" value="Rechercher" />
 			<!--  bouton envoi RESPONSIVE   -->
-			<div id="containerSearchMobile">
-				<input id="containerSearchMobile__searchButtonMobile" type="submit" value="" />
-				<div id="containerSearchMobile__searchLogoButtonMobile">
+			<div class="containerSearchMobile">
+				<input class="containerSearchMobile__searchButtonMobile" type="submit" value="" />
+				<div class="containerSearchMobile__searchLogoButtonMobile">
 					<i class="fa-solid fa-magnifying-glass"></i>
 				</div>
 			</div>
@@ -53,9 +53,9 @@
 		<aside>
 
 			<!--  FILTRES   -->
-			<div id="aside__ContainerHeadingFilters">
+			<div class="aside__ContainerHeadingFilters">
 				<h3>Filtres</h3>
-				<div id="aside__Filters">
+				<div class="aside__Filters">
 					<div class="aside__Filters__ContainerFilter">
 						<p>Economique</p>
 						<div class="aside__Filters__ContainerFilter__ContainerIcone">
@@ -84,7 +84,7 @@
 			</div>
 
 			<!--  INFORMATION   -->
-			<div id="aside__Information">
+			<div class="aside__Information">
 				<div id="aside__Information__ContainairInformationIcon">
 					<i class="fa-solid fa-info"></i>
 				</div>
@@ -94,14 +94,14 @@
 
 		<!-- CONTAINER HEBERGEMENT A MARSEILLE + PLUS POPULAIRES  -->
 
-		<div id="ContainerHebergementMarseillePlusPopulaires">
+		<div class="ContainerHebergementMarseillePlusPopulaires">
 
 			<!--  SECTION HEBERGEMENT A MARSEILLE   -->
 			<section id="SectionHebergementMarseille">
 				<h2>Hébergement à Marseille</h2>
 
 				<!--  CARDS   -->
-				<div id="ContainerHebergementMarseille">
+				<div class="ContainerHebergementMarseille">
 					<a href="#" class="cardHebergementMarseille">
 						<img src="../Images/hebergements/photo-auberge-la-cannebiere.jpg"
 							alt="Photo d'une chambre de l'Auberge La Cannebière">
@@ -208,14 +208,14 @@
 				<a href="#">Afficher plus</a>
 			</section>
 			<!--  SECTION LES PLUS POPULAIRES   -->
-			<section id="SectionPlusPopulaires">
-				<div id="ContainerheaderIcon">
+			<section class="SectionPlusPopulaires">
+				<div class="ContainerheaderIcon">
 					<h2>Les plus populaires</h2>
 					<div class="ContainerheaderIcon_Icon">
 						<i class="fas fa-chart-line"></i>
 					</div>
 				</div>
-				<div id="ContainerPlusPopulaires">
+				<div class="ContainerPlusPopulaires">
 					<a href="#" class="cardPlusPopulaires">
 						<img src="../Images/hebergements/photo-hotel-le-soleil-du-matin.jpg"
 							alt="Photo d'une chambre de l'Hôtel Le soleil du matin">
