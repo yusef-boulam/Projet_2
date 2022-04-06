@@ -68,6 +68,11 @@ nav a {
   display: block;
 }
 
+.nav_hebergement a{
+  color: #0065fc;
+  border-top: solid 2px #0065fc;
+}
+
 .nav a:hover {
   color: #0065fc;
   border-top: solid 2px #0065fc;
@@ -579,6 +584,11 @@ section a {
     border-bottom: solid 3px #f2f2f2;
     padding-bottom: 20px;
 
+  }
+
+  .nav_hebergement a{
+    color: #0065fc;
+    border-bottom: solid 3px #0065fc;
   }
 
   .nav a:hover {
