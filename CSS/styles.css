@@ -378,20 +378,60 @@ section a {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: auto repeat(5, 5em);
-
+  grid-gap: 3%;
 }
+
+.cardActiviteMarseille {
+  border-radius: 20px ;
+  box-shadow: 5px 5px 20px rgb(174 173 173);
+  }
 
 .cardActiviteMarseille img {
   width: 100%;
-  height: 80%;
-  object-fit: cover;  
-  
+
+  object-fit: cover;
+  border-radius: 20px 20px 0 0 ;
+}
+
+.cardActiviteMarseille h3 {
+  display: block;
+  width: 100%;
+  height: 55px;
+  margin: 0;
+  border-radius: 0 0 20px 20px;
+  background-color: red;
+  padding-left: 20px;
+  padding-top: 15px;
 }
 
 .activite-marseille_titre {
   grid-column: 1 / span 4;
   grid-row: 1;
   margin: 0;
+}
+
+.cardActiviteMarseille__vieuxPort img{
+  height: 392px; 
+}
+
+.cardActiviteMarseille__FortDePomegues img{
+  height: 208px; 
+}
+
+.cardActiviteMarseille__ilesDuFrioul img{
+  height: 114px; 
+}
+
+.cardActiviteMarseille__ParcNationalDesCalanques img{
+  height: 392px; 
+}
+
+.cardActiviteMarseille__NotreDameDeLaGarde img{
+  height: 114px; 
+}
+
+.cardActiviteMarseille__ParcLonchamp img{
+  height: 208px; 
 }
 
 .cardActiviteMarseille__vieuxPort{
@@ -412,13 +452,11 @@ section a {
   margin: 0;
 }
 
-
 .cardActiviteMarseille__ParcNationalDesCalanques {
   grid-column: 3 / span 1;
   grid-row: 2 / span 5 ;
   margin: 0;  
 }
-
 
 .cardActiviteMarseille__NotreDameDeLaGarde {
   grid-column: 4 / span 1;
@@ -432,6 +470,21 @@ section a {
   margin: 0; 
 }
 
+/* FOOTER */
+
+footer {
+  margin-top: 5px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto repeat(1, 5em);
+    grid-gap: 3%;
+}
+
+.a-propos {
+  grid-column: 4 / span 1;
+  grid-row: 4 / span 3 ;
+  margin: 0;  
+}
 
 /* ///////////////////////////////////RESPONSIVE TABLETTE/////////////////////////////////////// */
 /* Sur tous types d'écran, quand la largeur de la fenêtre est comprise entre 768px et 992px (tablette) */
