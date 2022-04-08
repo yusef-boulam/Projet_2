@@ -378,6 +378,14 @@ section a {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: auto repeat(5, 5em);
+
+}
+
+.cardActiviteMarseille img {
+  width: 100%;
+  height: 80%;
+  object-fit: cover;  
+  
 }
 
 .activite-marseille_titre {
@@ -386,70 +394,42 @@ section a {
   margin: 0;
 }
 
-.cardActiviteMarseille {
-  border-radius: 20px;
-  object-fit: cover;
-  width: 100%;
+.cardActiviteMarseille__vieuxPort{
+  grid-column: 1 / span 1;
+  grid-row: 2 / span 5 ;
+  margin: 0; 
 }
 
-#activiteMarseille h3 {}
-
-.cardActiviteMarseille__vieuxPort img {}
-
-.cardActiviteMarseille__vieuxPort h3 {
-  grid-column: 1/2;
-  grid-row: 8/9;
+.cardActiviteMarseille__FortDePomegues {
+  grid-column: 2 / span 1;
+  grid-row: 2 / span 3 ;
+  margin: 0;
 }
 
-.cardActiviteMarseille__FortDePomegues img {
-  grid-column: 3/4;
-  grid-row: 2/4;
-}
-
-.cardActiviteMarseille__FortDePomegues h3 {
-  grid-column: 3/4;
-  grid-row: 4/6;
-}
-
-.cardActiviteMarseille__ilesDuFrioul img {
-  grid-column: 3/4;
-  grid-row: 7/8;
-}
-
-.cardActiviteMarseille__ilesDuFrioul h3 {
-  grid-column: 3/4;
-  grid-row: 8/9;
+.cardActiviteMarseille__ilesDuFrioul {
+  grid-column: 2 / span 1;
+  grid-row: 5 / span 2 ;
+  margin: 0;
 }
 
 
-.cardActiviteMarseille__ParcNationalDesCalanques img {
-  grid-column: 5/6;
-  grid-row: 2/8;
+.cardActiviteMarseille__ParcNationalDesCalanques {
+  grid-column: 3 / span 1;
+  grid-row: 2 / span 5 ;
+  margin: 0;  
 }
 
-.cardActiviteMarseille__ParcNationalDesCalanques h3 {
-  grid-column: 5/6;
-  grid-row: 8/9;
+
+.cardActiviteMarseille__NotreDameDeLaGarde {
+  grid-column: 4 / span 1;
+  grid-row: 2 / span 2 ;
+  margin: 0; 
 }
 
-.cardActiviteMarseille__NotreDameDeLaGarde img {
-  grid-column: 7/8;
-  grid-row: 2/3;
-}
-
-.cardActiviteMarseille__NotreDameDeLaGarde h3 {
-  grid-column: 7/8;
-  grid-row: 3/4;
-}
-
-.cardActiviteMarseille__ParcLonchamp img {
-  grid-column: 7/8;
-  grid-row: 6/8;
-}
-
-.cardActiviteMarseille__ParcLonchamp img {
-  grid-column: 7/8;
-  grid-row: 8/9;
+.cardActiviteMarseille__ParcLonchamp {
+  grid-column: 4 / span 1;
+  grid-row: 4 / span 3 ;
+  margin: 0; 
 }
 
 
