@@ -377,8 +377,10 @@ section a {
 #activiteMarseille {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: auto repeat(5, 5em);
-  grid-gap: 3%;
+  grid-template-rows:  auto 162px 40px 40px 147px;
+  grid-column-gap: 3% ;
+  margin-top: 50px;
+  
 }
 
 .cardActiviteMarseille {
@@ -386,9 +388,15 @@ section a {
   box-shadow: 5px 5px 20px rgb(174 173 173);
   }
 
+.activite-marseille_titre {
+  grid-column: 1 / span 4;
+  grid-row: 1;
+  margin: 0;
+  padding-bottom: 25px;
+}
+
 .cardActiviteMarseille img {
   width: 100%;
-
   object-fit: cover;
   border-radius: 20px 20px 0 0 ;
 }
@@ -399,39 +407,32 @@ section a {
   height: 55px;
   margin: 0;
   border-radius: 0 0 20px 20px;
-  background-color: red;
-  padding-left: 20px;
-  padding-top: 15px;
-}
-
-.activite-marseille_titre {
-  grid-column: 1 / span 4;
-  grid-row: 1;
-  margin: 0;
+  padding-left: 17px;
+  padding-top: 18px;
 }
 
 .cardActiviteMarseille__vieuxPort img{
-  height: 392px; 
+  height: 330px; 
 }
 
 .cardActiviteMarseille__FortDePomegues img{
-  height: 208px; 
+  height: 142px; 
 }
 
 .cardActiviteMarseille__ilesDuFrioul img{
-  height: 114px; 
+  height: 89px; 
 }
 
 .cardActiviteMarseille__ParcNationalDesCalanques img{
-  height: 392px; 
+  height: 330px; 
 }
 
 .cardActiviteMarseille__NotreDameDeLaGarde img{
-  height: 114px; 
+  height: 102px; 
 }
 
 .cardActiviteMarseille__ParcLonchamp img{
-  height: 208px; 
+  height: 128px; 
 }
 
 .cardActiviteMarseille__vieuxPort{
@@ -442,38 +443,38 @@ section a {
 
 .cardActiviteMarseille__FortDePomegues {
   grid-column: 2 / span 1;
-  grid-row: 2 / span 3 ;
+  grid-row: 2 / span 2 ;
   margin: 0;
 }
 
 .cardActiviteMarseille__ilesDuFrioul {
   grid-column: 2 / span 1;
-  grid-row: 5 / span 2 ;
+  grid-row: 5 / span 1 ;
   margin: 0;
 }
 
 .cardActiviteMarseille__ParcNationalDesCalanques {
   grid-column: 3 / span 1;
-  grid-row: 2 / span 5 ;
+  grid-row: 2 / span 4 ;
   margin: 0;  
 }
 
 .cardActiviteMarseille__NotreDameDeLaGarde {
   grid-column: 4 / span 1;
-  grid-row: 2 / span 2 ;
+  grid-row: 2 / span 1 ;
   margin: 0; 
 }
 
 .cardActiviteMarseille__ParcLonchamp {
   grid-column: 4 / span 1;
-  grid-row: 4 / span 3 ;
+  grid-row: 4 / span 2 ;
   margin: 0; 
 }
 
 /* FOOTER */
 
 footer {
-  margin-top: 5px;
+  margin-top: 200px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: auto repeat(1, 5em);
