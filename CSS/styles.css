@@ -474,18 +474,30 @@ section a {
 /* FOOTER */
 
 footer {
-  margin-top: 200px;
+    margin-top: 56px;
+    padding: 30px;
+    background-color: #f2f2f2;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: auto repeat(1, 5em);
-    grid-gap: 3%;
+    grid-template-rows: auto;
+    grid-column-gap: 3%;
 }
 
-.a-propos {
-  grid-column: 4 / span 1;
-  grid-row: 4 / span 3 ;
-  margin: 0;  
+.container-lien-footer {
+  display: flex;
+  flex-direction: column;
 }
+
+.container-lien-footer ul {
+  display: flex;
+  flex-direction: column;
+}
+
+.container-lien-footer h3 {
+  margin-left: 10px;
+}
+
+
 
 /* ///////////////////////////////////RESPONSIVE TABLETTE/////////////////////////////////////// */
 /* Sur tous types d'écran, quand la largeur de la fenêtre est comprise entre 768px et 992px (tablette) */
