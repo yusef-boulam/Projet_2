@@ -483,14 +483,20 @@ section a {
 
 footer {
     width: 100%;
-    margin: 50px auto 0 auto;
+    margin-top:50px;
     /* min-width: 525px; */
     padding: 30px;
     background-color: #f2f2f2;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: auto;
-    grid-column-gap: 3%;
+}
+
+.container-footer {
+  max-width: 1228px;
+  margin: 0 auto 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  grid-column-gap: 3%;
+
 }
 
 .container-lien-footer {
@@ -501,10 +507,24 @@ footer {
 .container-lien-footer ul {
   display: flex;
   flex-direction: column;
+  padding: 0;
 }
 
+.container-lien-footer li {
+  padding-top: 10px;
+}
+
+.container-lien-footer a {
+  outline: none;
+  text-decoration: none;
+  color: black;
+  font-size: 13px;
+  text-align: center;
+}
+
+
 .container-lien-footer h3 {
-  margin-left: 10px;
+  margin: 0;
 }
 
 
