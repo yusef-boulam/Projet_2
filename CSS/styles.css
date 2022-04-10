@@ -318,7 +318,7 @@ section a {
 }
 
 .ContainerheaderIcon_Icon {
-  font-size: 2px;
+  font-size: 15px;
 }
 
 .ContainerPlusPopulaires {
@@ -873,7 +873,7 @@ footer {
 
   .cardPlusPopulaires {
     margin: 0 auto 3% auto;
-    height: 180px;
+    height: 140px;
     max-width: 520px;
   }
 
@@ -882,16 +882,17 @@ footer {
   }
 
   .cardPlusPopulaires__heading {
-    font-size: 20px;
+    font-size: 17px;
+    margin-top: 8px;
   }
 
   .cardPlusPopulaires p {
-    font-size: 17px;
+    font-size: 13px;
   }
 
   .cardPlusPopulaires__containerStars {
     padding-bottom: 2%;
-    font-size: 14px;
+    font-size: 11px;
   }
 
  /* ACTIVITES A MARSEILLE (SECTION) MOBILE RESPONSIVE */
