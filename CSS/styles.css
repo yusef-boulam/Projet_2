@@ -824,6 +824,10 @@ footer {
     background-color: white;
   }
 
+  #SectionHebergementMarseille h2 {
+   margin-bottom: 15px;
+  }
+
   .ContainerheaderIcon_Icon {
     font-size: 20px;
   }
@@ -835,27 +839,29 @@ footer {
 
   .cardHebergementMarseille img {
     width: 100%;
-    height: 170px;
+    height: 128px;
   }
 
   .cardHebergementMarseille__heading {
     padding: 0 0px 5px 5px;
-    font-size: 20px;
+    font-size: 17px;
   }
 
   .cardHebergementMarseille p {
     padding: 0 0px 5px 5px;
-    font-size: 17px;
+    font-size: 14px;
+    margin-top: 0;
+    margin-bottom: 0;
   }
 
   .cardHebergementMarseille__containerStars {
-    padding: 0 0px 15px 5px;
-    font-size: 14px;
+    padding: 3px 0px 11px 5px;
+    font-size: 10px;
   }
 
   #SectionHebergementMarseille a {
     display: block;
-    margin-top: 4%;
+    margin-top: 1%;
     font-size: 20px;
   }
 
@@ -887,7 +893,7 @@ footer {
   }
 
   .cardPlusPopulaires p {
-    font-size: 13px;
+    font-size: 14px;
   }
 
   .cardPlusPopulaires__containerStars {
