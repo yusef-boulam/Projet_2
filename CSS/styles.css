@@ -119,6 +119,14 @@ header p {
   padding-left: 10px;
   font-weight: bold;
   padding-left: 20px;
+  font-size: 14px;
+}
+
+input::placeholder {
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+  color: black;
+  opacity: 1;
 }
 
 .containerSearchBar__searchButton {
@@ -132,12 +140,6 @@ header p {
 
 .containerSearchMobile {
   display: none;
-}
-
-input::placeholder {
-  font-family: "Raleway", sans-serif;
-  color: black;
-  opacity: 1;
 }
 
 /* FILTRES (ASIDE)  */
@@ -197,7 +199,7 @@ input::placeholder {
 .aside__Information {
   display: flex;
   align-items: center;
-  padding: 10px 0 10px 0;
+  padding: 10px 0 0 0;
 }
 
 .aside__Information__ContainairInformationIcon {
@@ -645,25 +647,25 @@ footer {
   /* HEADER HEADING PARAGRAPH MOBILE RESPONSIVE */
 
   header h1 {
-    font-size: 30px;
-    margin: 25px;
+    font-size: 23px;
+    margin: 10px;
   }
 
   header p {
-    font-size: 22px;
+    font-size: 17px;
     color: grey;
-    margin: 25px;
+    margin: 10px;
   }
 
   /* HEADER SEARCH BAR LOCATION MOBILE RESPONSIVE*/
 
   .containerSearchBar {
-    margin: 35px 25px 35px 25px;
+    margin: 35px 10px 35px 10px;
   }
 
   .containerSearchBar__logoLocation {
-    width: 70px;
-    height: 70px;
+    width: 50px;
+    height: 50px;
   }
 
   .containerSearchBar__logoLocation i {
@@ -672,7 +674,11 @@ footer {
 
   .containerSearchBar__locationInput {
     width: 100%;
-    font-size: 23px;
+    font-size: 15px;
+  }
+
+  input::placeholder {
+    font-size: 15px;
   }
 
   .containerSearchBar__searchButton {
@@ -688,8 +694,8 @@ footer {
   }
 
   .containerSearchMobile__searchButtonMobile {
-    width: 70px;
-    height: 70px;
+    width: 50px;
+    height: 50px;
     background-color: #0065fc;
     border: #0065fc;
     color: white;
@@ -700,11 +706,9 @@ footer {
   .containerSearchMobile__searchLogoButtonMobile {
     position: absolute;
     color: white;
+    font-size: 15px;
   }
 
-  .containerSearchMobile__searchLogoButtonMobile {
-    font-size: 23px;
-  }
 
   /* ASIDE FILTERS MOBILE RESPONSIVE */
 
@@ -725,50 +729,57 @@ footer {
 
   .aside__Filters__ContainerFilter {
     font-size: 21px;
-    margin-right: 15px;
+    margin-left: 10px;
+    padding: 0;
   }
 
   .aside__Filters__ContainerFilter p {
+    font-size: 16px;
     margin: 8px 0;
-    padding: 16px 24px 16px 73px;
+    padding: 13px 19px 13px 56px;
     border-radius: 40px;
   }
 
   .aside__Filters__ContainerFilter__ContainerIcone {
-    Width: 62px;
-    height: 62px;
-    left: 21px;
+    Width: 50px;
+    height: 50px;
+    left: 0px;
   }
 
+  .aside__Filters__ContainerFilter__ContainerIcone i {
+  font-size: 19px;
+  }
 
   /* ASIDE INFORMATION MOBILE RESPONSIVE */
 
   .aside__Information {
-    margin-left: 25px;
+    margin-left: 10px;
     align-items: flex-start;
-    margin-top: 20px;
+    margin-top: 10px;
   }
 
   .aside__Information__ContainairInformationIcon {
     border: solid 1px grey;
     border-radius: 50%;
-    width: 25px;
-    height: 25px;
+    width: 21px;
+    height: 17px;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-right: 10px;
+    margin-right: 0;
+    margin-top: 10px;
   }
 
   .aside__Information__ContainairInformationIcon i {
-    font-size: 17px;
+    font-size: 10px;
     color: #0065fc;
   }
 
   .aside__Information p {
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 400;
     margin-top: 0;
+    padding: 10px;
   }
 
   /* CONTAINER HEBERGEMENT A MARSEILLE + PLUS POPULAIRES MOBILE RESPONSIVE*/
