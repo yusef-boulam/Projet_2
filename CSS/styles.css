@@ -398,6 +398,10 @@ section a {
   margin: 0; 
   }
 
+  .cardActiviteMarseille:hover h3 {
+    color: #0065fc;
+    }
+
 .activite-marseille_header {
   grid-column: 1 / span 4;
   grid-row: 1;
