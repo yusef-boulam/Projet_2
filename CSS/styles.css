@@ -89,7 +89,7 @@ header h1 {
 }
 
 header p {
-  font-size: 15px;
+  font-size: 14px;
   font-weight: 300;
 }
 
@@ -299,7 +299,7 @@ section a {
 }
 
 .SectionHebergementMarseille__Afficher-plus{
-  font-size: 20px;
+  font-size: 14px;
 }
 
 /* LES PLUS POPULAIRES (SECTION) */
@@ -320,7 +320,7 @@ section a {
 }
 
 .ContainerheaderIcon_Icon {
-  font-size: 15px;
+  font-size: 18px;
 }
 
 .ContainerPlusPopulaires {
@@ -642,6 +642,10 @@ footer {
 
   /* HEADER LOGO NAV MOBILE RESPONSIVE */
 
+  body{
+    width: 100%;
+  }
+  
   .containerLogoNav {
     flex-direction: column;
     margin-top: 30px;
