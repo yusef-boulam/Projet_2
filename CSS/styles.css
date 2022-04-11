@@ -68,6 +68,7 @@ nav a {
   border: solid 2px white;
   color: black;
   display: block;
+  font-weight: 400;
 }
 
 .nav_hebergement a{
@@ -89,6 +90,7 @@ header h1 {
 
 header p {
   font-size: 15px;
+  font-weight: 300;
 }
 
 /* HEADER SEARCH BAR LOCATION */
@@ -218,7 +220,7 @@ input::placeholder {
 
 .aside__Information p {
   font-size: 14px;
-  font-weight: 400;
+  font-weight: 300;
 }
 
 /* CONTAINER HEBERGEMENT A MARSEILLE + PLUS POPULAIRES */
@@ -278,6 +280,7 @@ input::placeholder {
 .cardHebergementMarseille p {
   margin: 2% 0 3% 5%;
   font-size: 13px;
+  font-weight: 300;
 }
 
 .cardHebergementMarseille__containerStars {
@@ -371,6 +374,7 @@ section a {
 .cardPlusPopulaires p {
   font-size: 14px;
   margin-top: 4%;
+  font-weight: 300;
 }
 
 .cardPlusPopulaires__containerStars {
@@ -414,14 +418,19 @@ section a {
   border-radius: 20px 20px 0 0 ;
 }
 
-.cardActiviteMarseille h3 {
-  display: block;
+.cardActiviteMarseille__container-h3 {
   width: 100%;
   height: 55px;
   margin: 0;
   border-radius: 0 0 20px 20px;
-  padding-left: 17px;
-  padding-top: 18px;
+  display: flex;
+
+}
+
+.cardActiviteMarseille h3 {
+  margin: auto 0 auto 20px;
+  text-align: start;
+ 
 }
 
 .cardActiviteMarseille__vieuxPort img{
@@ -518,6 +527,8 @@ footer {
 .container-lien-footer li {
   padding-top: 10px;
   font-size: 16px;
+  font-weight: 300;
+
 }
 
 .container-lien-footer a {
@@ -917,9 +928,6 @@ footer {
 height: 148px;
 }
 
-.cardActiviteMarseille h3 {
-  padding-top: 15px;
-}
 
 .cardActiviteMarseille__vieuxPort{
   grid-row: 2;
