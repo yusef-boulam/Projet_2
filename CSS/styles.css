@@ -12,8 +12,7 @@ body {
   font-weight: 100;
 }
 
-.margin-header-main
-{
+.margin-header-main {
   margin-left: auto;
   margin-right: auto;
   width: 95%;
@@ -71,7 +70,7 @@ nav a {
   font-weight: 400;
 }
 
-.nav_hebergement a{
+.nav_hebergement a {
   color: #0065fc;
   border-top: solid 2px #0065fc;
 }
@@ -258,7 +257,7 @@ input::placeholder {
   margin: 0 0 4% 0;
   text-align: left;
   padding-top: 0;
-  box-shadow: 5px 5px 20px rgb(174 173 173);
+  box-shadow: 2px 2px 30px rgb(209, 208, 208);
 }
 
 .cardHebergementMarseille:hover h3 {
@@ -298,7 +297,7 @@ section a {
   color: black;
 }
 
-.SectionHebergementMarseille__Afficher-plus{
+.SectionHebergementMarseille__Afficher-plus {
   font-size: 14px;
 }
 
@@ -340,7 +339,7 @@ section a {
   margin: 4% 0 4% 0;
   display: flex;
   padding-top: 0;
-  box-shadow: 5px 5px 20px rgb(174 173 173);
+  box-shadow: 2px 2px 30px rgb(209, 208, 208);
   text-align: start;
 }
 
@@ -389,21 +388,21 @@ section a {
 #activiteMarseille {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows:  auto 162px 40px 40px 147px;
-  grid-column-gap: 3% ;
+  grid-template-rows: auto 162px 40px 40px 147px;
+  grid-column-gap: 3%;
   margin-top: 50px;
-  
+
 }
 
 .cardActiviteMarseille {
-  border-radius: 20px ;
+  border-radius: 20px;
   box-shadow: 5px 5px 20px rgb(174 173 173);
-  margin: 0; 
-  }
+  margin: 0;
+}
 
-  .cardActiviteMarseille:hover h3 {
-    color: #0065fc;
-    }
+.cardActiviteMarseille:hover h3 {
+  color: #0065fc;
+}
 
 .activite-marseille_header {
   grid-column: 1 / span 4;
@@ -415,7 +414,7 @@ section a {
 .cardActiviteMarseille img {
   width: 100%;
   object-fit: cover;
-  border-radius: 20px 20px 0 0 ;
+  border-radius: 20px 20px 0 0;
 }
 
 .cardActiviteMarseille__container-h3 {
@@ -430,71 +429,71 @@ section a {
 .cardActiviteMarseille h3 {
   margin: auto 0 auto 20px;
   text-align: start;
- 
+
 }
 
-.cardActiviteMarseille__vieuxPort img{
-  height: 330px; 
+.cardActiviteMarseille__vieuxPort img {
+  height: 330px;
 }
 
-.cardActiviteMarseille__FortDePomegues img{
-  height: 142px; 
+.cardActiviteMarseille__FortDePomegues img {
+  height: 142px;
 }
 
-.cardActiviteMarseille__ilesDuFrioul img{
-  height: 89px; 
+.cardActiviteMarseille__ilesDuFrioul img {
+  height: 89px;
 }
 
-.cardActiviteMarseille__ParcNationalDesCalanques img{
-  height: 330px; 
+.cardActiviteMarseille__ParcNationalDesCalanques img {
+  height: 330px;
 }
 
-.cardActiviteMarseille__NotreDameDeLaGarde img{
-  height: 102px; 
+.cardActiviteMarseille__NotreDameDeLaGarde img {
+  height: 102px;
 }
 
-.cardActiviteMarseille__ParcLonchamp img{
-  height: 128px; 
+.cardActiviteMarseille__ParcLonchamp img {
+  height: 128px;
 }
 
-.cardActiviteMarseille__vieuxPort{
+.cardActiviteMarseille__vieuxPort {
   grid-column: 1 / span 1;
-  grid-row: 2 / span 5 ;
+  grid-row: 2 / span 5;
 }
 
 .cardActiviteMarseille__FortDePomegues {
   grid-column: 2 / span 1;
-  grid-row: 2 / span 2 ;
+  grid-row: 2 / span 2;
 }
 
 .cardActiviteMarseille__ilesDuFrioul {
   grid-column: 2 / span 1;
-  grid-row: 5 / span 1 ;
+  grid-row: 5 / span 1;
 }
 
 .cardActiviteMarseille__ParcNationalDesCalanques {
   grid-column: 3 / span 1;
-  grid-row: 2 / span 4 ; 
+  grid-row: 2 / span 4;
 }
 
 .cardActiviteMarseille__NotreDameDeLaGarde {
   grid-column: 4 / span 1;
-  grid-row: 2 / span 1 ; 
+  grid-row: 2 / span 1;
 }
 
 .cardActiviteMarseille__ParcLonchamp {
   grid-column: 4 / span 1;
-  grid-row: 4 / span 2 ;
+  grid-row: 4 / span 2;
 }
 
 /* FOOTER */
 
 footer {
-    width: 100%;
-    margin-top:50px;
-    /* min-width: 525px; */
-    padding: 30px;
-    background-color: #f2f2f2;
+  width: 100%;
+  margin-top: 50px;
+  /* min-width: 525px; */
+  padding: 30px;
+  background-color: #f2f2f2;
 }
 
 .container-footer {
@@ -642,10 +641,10 @@ footer {
 
   /* HEADER LOGO NAV MOBILE RESPONSIVE */
 
-  .margin-header-main{
+  .margin-header-main {
     width: 100%;
   }
-  
+
   .containerLogoNav {
     flex-direction: column;
     margin-top: 30px;
@@ -677,7 +676,7 @@ footer {
 
   }
 
-  .nav_hebergement a{
+  .nav_hebergement a {
     color: #0065fc;
     border-bottom: solid 3px #0065fc;
   }
@@ -785,7 +784,7 @@ footer {
   }
 
   .aside__Filters__ContainerFilter__ContainerIcone i {
-  font-size: 19px;
+    font-size: 19px;
   }
 
   /* ASIDE INFORMATION MOBILE RESPONSIVE */
@@ -906,84 +905,84 @@ footer {
     font-size: 11px;
   }
 
- /* ACTIVITES A MARSEILLE (SECTION) MOBILE RESPONSIVE */
- 
- #activiteMarseille {
-  grid-template-columns: auto;
-  grid-template-rows:  auto repeat(6, 204px);
-  grid-row-gap: 18px ;
-  margin-top: 30px;
-}
+  /* ACTIVITES A MARSEILLE (SECTION) MOBILE RESPONSIVE */
 
-.activite-marseille_header{
-  grid-row: 1;
-  grid-column: 1; 
-  padding: 0 0 13px 10px;
+  #activiteMarseille {
+    grid-template-columns: auto;
+    grid-template-rows: auto repeat(6, 204px);
+    grid-row-gap: 18px;
+    margin-top: 30px;
   }
 
-.cardActiviteMarseille {
-  grid-column: 1;
-  width: 90%; 
-  margin: 0 auto 0 auto;
-  max-width: 520px;
+  .activite-marseille_header {
+    grid-row: 1;
+    grid-column: 1;
+    padding: 0 0 13px 10px;
   }
 
-.cardActiviteMarseille img {
-height: 148px;
-}
+  .cardActiviteMarseille {
+    grid-column: 1;
+    width: 90%;
+    margin: 0 auto 0 auto;
+    max-width: 520px;
+  }
+
+  .cardActiviteMarseille img {
+    height: 148px;
+  }
 
 
-.cardActiviteMarseille__vieuxPort{
-  grid-row: 2;
-}
+  .cardActiviteMarseille__vieuxPort {
+    grid-row: 2;
+  }
 
-.cardActiviteMarseille__FortDePomegues {
-  grid-row: 3 ;
-}
+  .cardActiviteMarseille__FortDePomegues {
+    grid-row: 3;
+  }
 
-.cardActiviteMarseille__ilesDuFrioul {
-  grid-row: 4;
-}
+  .cardActiviteMarseille__ilesDuFrioul {
+    grid-row: 4;
+  }
 
-.cardActiviteMarseille__ParcNationalDesCalanques {
-  grid-row: 5; 
-}
+  .cardActiviteMarseille__ParcNationalDesCalanques {
+    grid-row: 5;
+  }
 
-.cardActiviteMarseille__NotreDameDeLaGarde {
-  grid-row: 6 ; 
-}
+  .cardActiviteMarseille__NotreDameDeLaGarde {
+    grid-row: 6;
+  }
 
-.cardActiviteMarseille__ParcLonchamp {
-  grid-row: 7;
-}
-
-
-/* FOOTER RESPONSIVE MOBILE*/
+  .cardActiviteMarseille__ParcLonchamp {
+    grid-row: 7;
+  }
 
 
-.container-footer {
-  grid-template-columns: auto;
-  grid-template-rows:  repeat(3, auto);
-  grid-row-gap: 36px ;
-  width: 90%; 
-  margin: 0 auto 0 0;
-  max-width: 520px;
-}
+  /* FOOTER RESPONSIVE MOBILE*/
 
-.container-lien-footer h3 a {
- font-size: 20px;
-}
 
-.container-lien-footer li {
-  padding-top: 15px;
-}
+  .container-footer {
+    grid-template-columns: auto;
+    grid-template-rows: repeat(3, auto);
+    grid-row-gap: 36px;
+    width: 90%;
+    margin: 0 auto 0 0;
+    max-width: 520px;
+  }
 
-.container-lien-footer li a {
-   font-size: 20px;
-}
+  .container-lien-footer h3 a {
+    font-size: 20px;
+  }
 
-.container-lien-footer ul {
-  margin-top: 10px;
-}
+  .container-lien-footer li {
+    padding-top: 15px;
+  }
+
+  .container-lien-footer li a {
+    font-size: 20px;
+  }
+
+  .container-lien-footer ul {
+    margin-top: 10px;
+  }
 
 }
