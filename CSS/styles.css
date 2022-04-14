@@ -391,12 +391,11 @@ section a {
   grid-template-rows: auto 162px 40px 40px 147px;
   grid-column-gap: 3%;
   margin-top: 50px;
-
 }
 
 .cardActiviteMarseille {
   border-radius: 20px;
-  box-shadow: 5px 5px 20px rgb(174 173 173);
+  box-shadow: 2px 2px 30px rgb(209, 208, 208);
   margin: 0;
 }
 
@@ -619,8 +618,50 @@ footer {
     margin-bottom: 4%;
   }
 
+/* ACTIVITE MARSEILLE (SECTION) */
 
+#activiteMarseille {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto 162px 40px 40px 147px 40px 162px 40px 40px 147px;
+  grid-column-gap: 3%;
+  margin-top: 50px;
+}
 
+.activite-marseille_header {
+  grid-column: 1 / span 2;
+  grid-row: 1;
+}
+
+.cardActiviteMarseille__vieuxPort {
+  grid-column: 1 / span 1;
+  grid-row: 2 / span 4;
+}
+
+.cardActiviteMarseille__FortDePomegues {
+  grid-column: 2 / span 1;
+  grid-row: 2 / span 2;
+}
+
+.cardActiviteMarseille__ilesDuFrioul {
+  grid-column: 2 / span 1;
+  grid-row: 5 / span 1;
+}
+
+.cardActiviteMarseille__ParcNationalDesCalanques {
+  grid-column: 1 / span 1;
+  grid-row: 7 / span 4;
+}
+
+.cardActiviteMarseille__NotreDameDeLaGarde {
+  grid-column: 2 / span 1;
+  grid-row: 7 / span 1;
+}
+
+.cardActiviteMarseille__ParcLonchamp {
+  grid-column: 2 / span 1;
+  grid-row: 9 / span 2;
+}
 
 }
 
